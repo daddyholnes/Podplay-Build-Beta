@@ -9,6 +9,11 @@
             "date": 1745704738905,
             "name": "C:\\podplay-backup\\Podplay-Build-Beta\\api\\logs\\error-2025-04-26.log",
             "hash": "d154137ad822599737d2dafec9b5b009858bd4ef1f23f93a19baec18a7ab933a"
+        },
+        {
+            "date": 1745708483330,
+            "name": "C:\\podplay-backup\\Podplay-Build-Beta\\api\\logs\\error-2025-04-27.log",
+            "hash": "b873374dcaf147859a1a35815b5b5c62d3501a3d1b1715dc9081766e9ccc1607"
         }
     ],
     "hashType": "sha256"
