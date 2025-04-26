@@ -21,14 +21,16 @@ function App() {
       <RecoilRoot>
         <QueryClientProvider client={queryClient}>
           <Provider store={store}> {/* Wrap with Redux Provider */}
-            <AuthContextProvider>
-              <ThemeProvider>
-                <TooltipProvider> {/* Ensure TooltipProvider wraps the RouterProvider */}
-                  {/* Use RouterProvider with the imported router */}
-                  <RouterProvider router={router} />
-                </TooltipProvider>
-              </ThemeProvider>
-            </AuthContextProvider>
+            {/* Router context must wrap AuthContextProvider */}
+            <RouterProvider router={router}>
+              <AuthContextProvider>
+                <ThemeProvider>
+                  <TooltipProvider>
+                    {/* Routes render here by RouterProvider */}
+                  </TooltipProvider>
+                </ThemeProvider>
+              </AuthContextProvider>
+            </RouterProvider>
           </Provider>
         </QueryClientProvider>
       </RecoilRoot>
