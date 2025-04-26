@@ -1,0 +1,8 @@
+{"level":"info","message":"[Login] [Login successful] [Username: theboss@wyattglobal.uk] [Request-IP: ::1]","timestamp":"2025-04-26T02:45:07.200Z"}
+{"level":"info","message":"[Login] [Login successful] [Username: theboss@wyattglobal.uk] [Request-IP: ::1]","timestamp":"2025-04-26T03:56:52.402Z"}
+{"level":"error","message":"Passport Local Strategy - Password does not match","parameters":[{"name":"isMatch","value":false}],"timestamp":"2025-04-26T04:03:50.527Z"}
+{"level":"error","message":"[Login] [Login failed] [Username: theboss@wyattglobal.uk] [Request-IP: ::1]","timestamp":"2025-04-26T04:03:50.528Z"}
+{"level":"info","message":"[Login] [Login successful] [Username: wyattholne@gmail.com] [Request-IP: ::1]","timestamp":"2025-04-26T04:04:38.738Z"}
+{"level":"error","message":"Passport Local Strategy - User Not Found","parameters":[{"name":"email","value":"wyattholne@gmail.com"}],"timestamp":"2025-04-26T14:28:33.637Z"}
+{"level":"error","message":"[Login] [Login failed] [Username: wyattholne@gmail.com] [Request-IP: 127.0.0.1]","timestamp":"2025-04-26T14:28:33.638Z"}
+{"level":"info","message":"[Login] [Login successful] [Username: theboss@wyattglobal.uk] [Request-IP: 127.0.0.1]","timestamp":"2025-04-26T14:29:22.680Z"}

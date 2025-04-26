@@ -1,0 +1,1 @@
+const fs = require('fs'); const path = require('path'); const configPath = path.join(__dirname, 'api', 'server', 'services', 'Config', 'config.js'); const config = require(configPath); config.endpointsConfig = config.endpointsConfig || {}; config.endpointsConfig.google = true; console.log('Google endpoint explicitly enabled'); process.exit(0);

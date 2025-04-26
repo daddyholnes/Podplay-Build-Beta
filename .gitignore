@@ -1,0 +1,38 @@
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Sensitive credential files
+camera-calibration-beta-6304d1bafd3c.json
+*.pem
+*.key
+# Add your firebase service account file if you use it
+# firebase-service-account.json
+
+# Other potentially sensitive files (if applicable)
+accesspoints.txt # Add this if it contains sensitive data
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+out/
+coverage/
+*.local
+
+# IDE/Editor directories
+.idea/
+.vscode/
+*.swp
+*~
+Google Docs/
+# OS generated files
+.DS_Store
+Thumbs.db

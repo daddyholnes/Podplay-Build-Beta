@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\Podplay-Agent\\LibreChat-main\\api\\logs\\.bb5b920e9d1ebe522faa890d02c1b7eaa0a60085-audit.json",
+    "files": [
+        {
+            "date": 1745634566646,
+            "name": "C:\\Podplay-Agent\\LibreChat-main\\api\\logs\\meiliSync-2025-04-26.log",
+            "hash": "a333a82b9f4d458bf8807674f5dd9fc037a813ca522ec40c02cbb22eea3de4a2"
+        }
+    ],
+    "hashType": "sha256"
+}

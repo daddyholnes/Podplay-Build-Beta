@@ -1,0 +1,2474 @@
+2025-04-26T02:42:32.862Z info: [Optional] Redis not initialized.
+2025-04-26T02:42:46.285Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T02:42:47.325Z info: Connected to MongoDB
+2025-04-26T02:42:48.092Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "invalid_type",
+      "expected": "s... [truncated]
+2025-04-26T02:42:48.104Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T02:42:48.106Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T02:42:48.310Z info: No changes needed for 'USER' role permissions
+2025-04-26T02:42:48.339Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T02:42:48.404Z info: Server listening at http://localhost:3080
+2025-04-26T02:45:07.475Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T02:45:07.769Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T02:54:40.066Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T02:55:31.824Z info: [Optional] Redis not initialized.
+2025-04-26T02:55:40.367Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T02:55:41.309Z info: Connected to MongoDB
+2025-04-26T02:55:42.143Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "invalid_type",
+      "expected": "s... [truncated]
+2025-04-26T02:55:42.152Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T02:55:42.155Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T02:55:42.221Z info: No changes needed for 'USER' role permissions
+2025-04-26T02:55:42.246Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T02:55:42.295Z info: Server listening at http://localhost:3080
+2025-04-26T02:55:59.964Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T02:56:00.211Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T02:58:09.223Z debug: [AskController]
+{
+  text: "we good?",
+  conversationId: null,
+  endpoint: "openAI",
+  resendFiles: true,
+    modelOptions.model: "gpt-4.1-nano",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T02:58:09.458Z debug: [BaseClient] Loading history:
+{
+  conversationId: "54021301-1326-4561-a64e-bb0789862e97",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+}
+2025-04-26T02:58:09.818Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 1047566,
+  maxContextTokens: 1047576,
+}
+2025-04-26T02:58:09.819Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 1047566,
+  maxContextTokens: 1047576,
+}
+2025-04-26T02:58:09.820Z debug: [BaseClient] tokenCountMap:
+{
+  7b0a6512-28fb-4ba2-b37d-b4e90d1c6598: 7,
+}
+2025-04-26T02:58:09.820Z debug: [BaseClient]
+{
+  promptTokens: 10,
+  remainingContextTokens: 1047566,
+  payloadSize: 1,
+  maxContextTokens: 1047576,
+}
+2025-04-26T02:58:09.821Z debug: [BaseClient] tokenCountMap
+{
+  7b0a6512-28fb-4ba2-b37d-b4e90d1c6598: 7,
+  instructions: undefined,
+}
+2025-04-26T02:58:09.821Z debug: [BaseClient] userMessage
+{
+  messageId: "7b0a6512-28fb-4ba2-b37d-b4e90d1c6598",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+  conversationId: "54021301-1326-4561-a64e-bb0789862e97",
+  sender: "User",
+  text: "we good?",
+  isCreatedByUser: true,
+  tokenCount: 7,
+}
+2025-04-26T02:58:09.827Z debug: [OpenAIClient] chatCompletion
+{
+  baseURL: "https://api.openai.com/v1",
+    modelOptions.model: "gpt-4.1-nano",
+    modelOptions.user: "680c48a85f4cff06bd8f1e75",
+    modelOptions.stream: true,
+    // 1 message(s)
+    modelOptions.messages: [{"role":"user","content":"we good?"}],
+}
+2025-04-26T02:58:09.865Z debug: Making request to https://api.openai.com/v1/chat/completions
+2025-04-26T02:58:09.919Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T02:58:10.944Z debug: Making request to https://api.openai.com/v1/chat/completions
+2025-04-26T02:58:11.993Z debug: Making request to https://api.openai.com/v1/chat/completions
+2025-04-26T02:58:12.206Z warn: [OpenAIClient.chatCompletion][stream] Unhandled error type
+2025-04-26T02:58:12.207Z error
+2025-04-26T02:58:12.208Z error: [AskController] Error handling request 429 You exceeded your current quota, please check your plan and billing details. For more information on this e... [truncated]
+2025-04-26T02:58:12.209Z error: [handleAbortError] AI response error; aborting request: 429 You exceeded your current quota, please check your plan and billing details. For more info... [truncated]
+2025-04-26T02:58:12.245Z debug: [AskController] Performing cleanup
+2025-04-26T02:58:12.245Z debug: [AskController] Cleaning up abort controller
+2025-04-26T02:58:12.246Z debug: [AskController] Cleanup completed
+2025-04-26T02:58:29.981Z debug: [AskController]
+{
+  text: "mork calling orson>?",
+  conversationId: "54021301-1326-4561-a64e-bb0789862e97",
+  endpoint: "azureOpenAI",
+  resendFiles: true,
+    modelOptions.model: "podplay-gpt-4o",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T02:58:29.983Z debug: [BaseClient] Loading history:
+{
+  conversationId: "54021301-1326-4561-a64e-bb0789862e97",
+  parentMessageId: "bdda76c6-83a1-4201-aa09-959b85cdbd04",
+}
+2025-04-26T02:58:30.011Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 127463,
+  maxContextTokens: 127500,
+}
+2025-04-26T02:58:30.011Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 127463,
+  maxContextTokens: 127500,
+}
+2025-04-26T02:58:30.012Z debug: [BaseClient] tokenCountMap:
+{
+  7b0a6512-28fb-4ba2-b37d-b4e90d1c6598: 7,
+  bdda76c6-83a1-4201-aa09-959b85cdbd04: 17,
+  95168d3a-a4cc-4d11-a695-8bdda7b8d5af: 10,
+}
+2025-04-26T02:58:30.012Z debug: [BaseClient]
+{
+  promptTokens: 37,
+  remainingContextTokens: 127463,
+  payloadSize: 3,
+  maxContextTokens: 127500,
+}
+2025-04-26T02:58:30.012Z debug: [BaseClient] tokenCountMap
+{
+  7b0a6512-28fb-4ba2-b37d-b4e90d1c6598: 7,
+  bdda76c6-83a1-4201-aa09-959b85cdbd04: 17,
+  95168d3a-a4cc-4d11-a695-8bdda7b8d5af: 10,
+  instructions: undefined,
+}
+2025-04-26T02:58:30.012Z debug: [BaseClient] userMessage
+{
+  messageId: "95168d3a-a4cc-4d11-a695-8bdda7b8d5af",
+  parentMessageId: "bdda76c6-83a1-4201-aa09-959b85cdbd04",
+  conversationId: "54021301-1326-4561-a64e-bb0789862e97",
+  sender: "User",
+  text: "mork calling orson>?",
+  isCreatedByUser: true,
+  tokenCount: 10,
+}
+2025-04-26T02:58:30.012Z debug: [BaseClient] Skipping 7b0a6512-28fb-4ba2-b37d-b4e90d1c6598: already had a token count.
+2025-04-26T02:58:30.012Z debug: [BaseClient] Skipping bdda76c6-83a1-4201-aa09-959b85cdbd04: already had a token count.
+2025-04-26T02:58:30.013Z debug: [OpenAIClient] chatCompletion
+{
+  baseURL: "https://podplaystudio.openai.azure.com/openai/deployments/podplay-gpt-4o/chat/completions?api-versio... [truncated]",
+    modelOptions.model: "podplay-gpt-4o",
+    modelOptions.user: "680c48a85f4cff06bd8f1e75",
+    modelOptions.stream: true,
+    // 3 message(s)
+    modelOptions.messages: [{"role":"user","content":"we good?"},{"role":"assistant","content":"An error occurred while processing your request. Please contact the A... [truncated],{"role":"user","content":"mork calling orson>?"}],
+}
+2025-04-26T02:58:30.022Z debug: Making request to https://podplaystudio.openai.azure.com/openai/deployments/podplay-gpt-4o/chat/completions?api-version=2025-01-01-preview
+2025-04-26T02:58:30.069Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T02:58:30.988Z debug: [OpenAIClient] chatCompletion response
+{
+  object: "chat.completion",
+  // 1 prompt_filter_result(s)
+  prompt_filter_results: [{"prompt_index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"jailbreak":... [truncated]],
+    usage.completion_tokens: 27,
+    completion_tokens_details.accepted_prediction_tokens: 0,
+    completion_tokens_details.audio_tokens: 0,
+    completion_tokens_details.reasoning_tokens: 0,
+    completion_tokens_details.rejected_prediction_tokens: 0,
+    usage.prompt_tokens: 37,
+    prompt_tokens_details.audio_tokens: 0,
+    prompt_tokens_details.cached_tokens: 0,
+    usage.total_tokens: 64,
+  id: "chatcmpl-BQQ2HISHu8S2ieLMs6DhaBuiFsdCG",
+  // 1 choice(s)
+  choices: [{"content_filter_results":{},"message":{"role":"assistant","content":"Come in, Orson! 🚀 Nanu-Nanu! ... [truncated]],
+  created: 1745636309,
+  model: "gpt-4o-2024-11-20",
+  system_fingerprint: "fp_ee1d74bde0",
+}
+2025-04-26T02:58:31.019Z debug: [spendTokens] conversationId: 54021301-1326-4561-a64e-bb0789862e97 | Context: message | Token usage:
+{
+  promptTokens: 37,
+  completionTokens: 27,
+}
+2025-04-26T02:58:31.097Z debug: [spendTokens] No transactions incurred against balance
+2025-04-26T02:58:31.097Z debug: [spendTokens] conversationId: 54021301-1326-4561-a64e-bb0789862e97 | Context: reasoning | Token usage:
+{
+  promptTokens: undefined,
+  completionTokens: 0,
+}
+2025-04-26T02:58:31.129Z debug: [spendTokens] No transactions incurred against balance
+2025-04-26T02:58:31.160Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T02:58:31.230Z debug: [AskController] Request closed
+2025-04-26T02:58:31.264Z debug: [AskController] Performing cleanup
+2025-04-26T02:58:31.264Z debug: [AskController] Cleaning up abort controller
+2025-04-26T02:58:31.264Z debug: [AskController] Cleanup completed
+2025-04-26T02:59:12.505Z debug: [AskController]
+{
+  text: "hehe congratulations.. your the first succesful reply inside podplay studio my guy to the start of a... [truncated]",
+  conversationId: "54021301-1326-4561-a64e-bb0789862e97",
+  endpoint: "azureOpenAI",
+  resendFiles: true,
+    modelOptions.model: "podplay-gpt-4o",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T02:59:12.506Z debug: [BaseClient] Loading history:
+{
+  conversationId: "54021301-1326-4561-a64e-bb0789862e97",
+  parentMessageId: "10b9309b-cf4f-40ad-928a-5e6b1cd5aee2",
+}
+2025-04-26T02:59:12.539Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 127394,
+  maxContextTokens: 127500,
+}
+2025-04-26T02:59:12.539Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 127394,
+  maxContextTokens: 127500,
+}
+2025-04-26T02:59:12.540Z debug: [BaseClient] tokenCountMap:
+{
+  7b0a6512-28fb-4ba2-b37d-b4e90d1c6598: 7,
+  bdda76c6-83a1-4201-aa09-959b85cdbd04: 17,
+  95168d3a-a4cc-4d11-a695-8bdda7b8d5af: 13,
+  10b9309b-cf4f-40ad-928a-5e6b1cd5aee2: 27,
+  a93649ed-555e-4f3a-b175-b89d2873de07: 39,
+}
+2025-04-26T02:59:12.540Z debug: [BaseClient]
+{
+  promptTokens: 106,
+  remainingContextTokens: 127394,
+  payloadSize: 5,
+  maxContextTokens: 127500,
+}
+2025-04-26T02:59:12.540Z debug: [BaseClient] tokenCountMap
+{
+  7b0a6512-28fb-4ba2-b37d-b4e90d1c6598: 7,
+  bdda76c6-83a1-4201-aa09-959b85cdbd04: 17,
+  95168d3a-a4cc-4d11-a695-8bdda7b8d5af: 13,
+  10b9309b-cf4f-40ad-928a-5e6b1cd5aee2: 27,
+  a93649ed-555e-4f3a-b175-b89d2873de07: 39,
+  instructions: undefined,
+}
+2025-04-26T02:59:12.541Z debug: [BaseClient] userMessage
+{
+  messageId: "a93649ed-555e-4f3a-b175-b89d2873de07",
+  parentMessageId: "10b9309b-cf4f-40ad-928a-5e6b1cd5aee2",
+  conversationId: "54021301-1326-4561-a64e-bb0789862e97",
+  sender: "User",
+  text: "hehe congratulations.. your the first succesful reply inside podplay studio my guy to the start of a... [truncated]",
+  isCreatedByUser: true,
+  tokenCount: 39,
+}
+2025-04-26T02:59:12.541Z debug: [BaseClient] Skipping 7b0a6512-28fb-4ba2-b37d-b4e90d1c6598: already had a token count.
+2025-04-26T02:59:12.541Z debug: [BaseClient] Skipping bdda76c6-83a1-4201-aa09-959b85cdbd04: already had a token count.
+2025-04-26T02:59:12.541Z debug: [BaseClient] Skipping 95168d3a-a4cc-4d11-a695-8bdda7b8d5af: already had a token count.
+2025-04-26T02:59:12.542Z debug: [BaseClient] Skipping 10b9309b-cf4f-40ad-928a-5e6b1cd5aee2: already had a token count.
+2025-04-26T02:59:12.542Z debug: [OpenAIClient] chatCompletion
+{
+  baseURL: "https://podplaystudio.openai.azure.com/openai/deployments/podplay-gpt-4o/chat/completions?api-versio... [truncated]",
+    modelOptions.model: "podplay-gpt-4o",
+    modelOptions.user: "680c48a85f4cff06bd8f1e75",
+    modelOptions.stream: true,
+    // 5 message(s)
+    modelOptions.messages: [{"role":"user","content":"we good?"},{"role":"assistant","content":"An error occurred while processing your request. Please contact the A... [truncated],{"role":"user","content":"mork calling orson>?"},{"role":"assistant","content":"Come in, Orson! 🚀 Nanu-Nanu! 🖖 How can I help you, Earthling? 😊"},{"role":"user","content":"hehe congratulations.. your the first succesful reply inside podplay studi... [truncated]],
+}
+2025-04-26T02:59:12.554Z debug: Making request to https://podplaystudio.openai.azure.com/openai/deployments/podplay-gpt-4o/chat/completions?api-version=2025-01-01-preview
+2025-04-26T02:59:12.606Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T02:59:13.921Z debug: [OpenAIClient] chatCompletion response
+{
+  object: "chat.completion",
+  // 1 prompt_filter_result(s)
+  prompt_filter_results: [{"prompt_index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"jailbreak":... [truncated]],
+    usage.completion_tokens: 96,
+    completion_tokens_details.accepted_prediction_tokens: 0,
+    completion_tokens_details.audio_tokens: 0,
+    completion_tokens_details.reasoning_tokens: 0,
+    completion_tokens_details.rejected_prediction_tokens: 0,
+    usage.prompt_tokens: 106,
+    prompt_tokens_details.audio_tokens: 0,
+    prompt_tokens_details.cached_tokens: 0,
+    usage.total_tokens: 202,
+  id: "chatcmpl-BQQ2xR3ZV4fNraGssX3lVCQyFkSVB",
+  // 1 choice(s)
+  choices: [{"content_filter_results":{},"message":{"role":"assistant","content":"Well, Nathan, it’s an honor to... [truncated]],
+  created: 1745636351,
+  model: "gpt-4o-2024-11-20",
+  system_fingerprint: "fp_ee1d74bde0",
+}
+2025-04-26T02:59:13.951Z debug: [spendTokens] conversationId: 54021301-1326-4561-a64e-bb0789862e97 | Context: message | Token usage:
+{
+  promptTokens: 106,
+  completionTokens: 96,
+}
+2025-04-26T02:59:14.015Z debug: [spendTokens] No transactions incurred against balance
+2025-04-26T02:59:14.016Z debug: [spendTokens] conversationId: 54021301-1326-4561-a64e-bb0789862e97 | Context: reasoning | Token usage:
+{
+  promptTokens: undefined,
+  completionTokens: 0,
+}
+2025-04-26T02:59:14.057Z debug: [spendTokens] No transactions incurred against balance
+2025-04-26T02:59:14.088Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T02:59:14.150Z debug: [AskController] Request closed
+2025-04-26T02:59:14.180Z debug: [AskController] Performing cleanup
+2025-04-26T02:59:14.181Z debug: [AskController] Cleaning up abort controller
+2025-04-26T02:59:14.181Z debug: [AskController] Cleanup completed
+2025-04-26T03:20:34.496Z info: [Optional] Redis not initialized.
+2025-04-26T03:20:42.398Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:20:43.312Z info: Connected to MongoDB
+2025-04-26T03:20:44.171Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:20:44.178Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:20:44.181Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:20:44.237Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:20:44.262Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:20:44.310Z info: Server listening at http://localhost:3080
+2025-04-26T03:21:47.338Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T03:21:47.706Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T03:26:14.088Z info: [Optional] Redis not initialized.
+2025-04-26T03:26:20.966Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:26:22.232Z info: Connected to MongoDB
+2025-04-26T03:26:22.956Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:26:22.964Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:26:22.966Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:26:23.016Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:26:23.038Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:26:23.081Z info: Server listening at http://localhost:3080
+2025-04-26T03:29:37.093Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T03:29:37.375Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T03:31:38.175Z info: [Optional] Redis not initialized.
+2025-04-26T03:31:46.546Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:31:47.932Z info: Connected to MongoDB
+2025-04-26T03:31:48.727Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:31:48.738Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:31:48.742Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:31:48.814Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:31:48.841Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:31:48.896Z info: Server listening at http://localhost:3080
+2025-04-26T03:33:09.891Z info: [Optional] Redis not initialized.
+2025-04-26T03:33:18.101Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:33:19.164Z info: Connected to MongoDB
+2025-04-26T03:33:19.931Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:33:19.949Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:33:19.954Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:33:20.140Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:33:20.174Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:33:20.243Z info: Server listening at http://localhost:3080
+2025-04-26T03:33:46.672Z info: [Optional] Redis not initialized.
+2025-04-26T03:33:54.701Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:33:55.735Z info: Connected to MongoDB
+2025-04-26T03:33:56.608Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:33:56.617Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:33:56.620Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:33:56.678Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:33:56.705Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:33:56.754Z info: Server listening at http://localhost:3080
+2025-04-26T03:34:36.789Z info: [Optional] Redis not initialized.
+2025-04-26T03:34:43.849Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:34:44.903Z info: Connected to MongoDB
+2025-04-26T03:34:45.648Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:34:45.659Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:34:45.661Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:34:45.721Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:34:45.747Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:34:45.818Z info: Server listening at http://localhost:3080
+2025-04-26T03:35:31.604Z info: [Optional] Redis not initialized.
+2025-04-26T03:35:39.200Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:35:40.155Z info: Connected to MongoDB
+2025-04-26T03:35:40.900Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:35:40.909Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:35:40.912Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:35:41.001Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:35:41.033Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:35:41.095Z info: Server listening at http://localhost:3080
+2025-04-26T03:36:08.139Z info: [Optional] Redis not initialized.
+2025-04-26T03:36:16.791Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:36:17.898Z info: Connected to MongoDB
+2025-04-26T03:36:18.804Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:36:18.817Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:36:18.821Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:36:18.898Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:36:18.934Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:36:18.991Z info: Server listening at http://localhost:3080
+2025-04-26T03:36:52.960Z info: [Optional] Redis not initialized.
+2025-04-26T03:37:00.853Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:37:01.914Z info: Connected to MongoDB
+2025-04-26T03:37:02.772Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:37:02.782Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:37:02.784Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:37:02.840Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:37:02.865Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:37:02.904Z info: Server listening at http://localhost:3080
+2025-04-26T03:37:16.423Z info: [Optional] Redis not initialized.
+2025-04-26T03:37:23.516Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:37:24.461Z info: Connected to MongoDB
+2025-04-26T03:37:25.209Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:37:25.221Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:37:25.225Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:37:25.297Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:37:25.322Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:37:25.371Z info: Server listening at http://localhost:3080
+2025-04-26T03:38:13.449Z info: [Optional] Redis not initialized.
+2025-04-26T03:38:21.684Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:38:22.768Z info: Connected to MongoDB
+2025-04-26T03:38:23.497Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:38:23.505Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:38:23.507Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:38:23.573Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:38:23.600Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:38:23.650Z info: Server listening at http://localhost:3080
+2025-04-26T03:38:40.025Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T03:38:40.341Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T03:53:13.075Z info: [Optional] Redis not initialized.
+2025-04-26T03:53:21.079Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:53:22.176Z info: Connected to MongoDB
+2025-04-26T03:53:22.908Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:53:22.922Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:53:22.926Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:53:23.000Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:53:23.032Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:53:23.078Z info: Server listening at http://localhost:3080
+2025-04-26T03:54:04.905Z info: [Optional] Redis not initialized.
+2025-04-26T03:54:16.611Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:54:17.979Z info: Connected to MongoDB
+2025-04-26T03:54:18.723Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:54:18.732Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:54:18.736Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:54:18.821Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:54:18.846Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:54:18.912Z info: Server listening at http://localhost:3080
+2025-04-26T03:54:43.984Z info: [Optional] Redis not initialized.
+2025-04-26T03:54:54.022Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:54:55.350Z info: Connected to MongoDB
+2025-04-26T03:54:56.050Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:54:56.061Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:54:56.064Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:54:56.127Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:54:56.157Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:54:56.203Z info: Server listening at http://localhost:3080
+2025-04-26T03:55:05.663Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T03:55:25.658Z info: [Optional] Redis not initialized.
+2025-04-26T03:55:32.279Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T03:55:33.180Z info: Connected to MongoDB
+2025-04-26T03:55:34.036Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T03:55:34.044Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T03:55:34.047Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T03:55:34.104Z info: No changes needed for 'USER' role permissions
+2025-04-26T03:55:34.131Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T03:55:34.167Z info: Server listening at http://localhost:3080
+2025-04-26T03:56:52.738Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T03:56:52.929Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T04:02:16.519Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T04:02:32.321Z info: [Optional] Redis not initialized.
+2025-04-26T04:02:39.865Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T04:02:40.893Z info: Connected to MongoDB
+2025-04-26T04:02:41.564Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T04:02:41.567Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T04:02:41.569Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T04:02:41.642Z info: No changes needed for 'USER' role permissions
+2025-04-26T04:02:41.708Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T04:02:41.752Z info: Server listening at http://localhost:3080
+2025-04-26T04:03:05.399Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T04:03:05.626Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T04:03:50.529Z debug: [requireLocalAuth] Error: No user
+2025-04-26T04:04:25.125Z info: Register User - Email in use
+2025-04-26T04:13:28.766Z info: [Optional] Redis not initialized.
+2025-04-26T04:13:36.373Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T04:13:37.403Z info: Connected to MongoDB
+2025-04-26T04:13:38.097Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T04:13:38.102Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T04:13:38.104Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T04:13:38.173Z info: No changes needed for 'USER' role permissions
+2025-04-26T04:13:38.209Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T04:13:38.259Z error: There was an uncaught error: listen EADDRINUSE: address already in use ::1:3080
+2025-04-26T04:16:20.480Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T04:19:31.290Z info: [Optional] Redis not initialized.
+2025-04-26T04:19:39.399Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T04:19:40.388Z info: Connected to MongoDB
+2025-04-26T04:19:41.126Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T04:19:41.131Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T04:19:41.133Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T04:19:41.201Z info: No changes needed for 'USER' role permissions
+2025-04-26T04:19:41.230Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T04:19:41.277Z info: Server listening at http://localhost:3080
+2025-04-26T04:20:01.019Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T04:20:01.258Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T04:20:12.037Z debug: [AskController]
+{
+  text: "gem?",
+  conversationId: null,
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-2.0-flash-thinking-exp-1219",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T04:20:12.089Z debug: Creating GenAI client
+2025-04-26T04:20:12.092Z debug: [BaseClient] Loading history:
+{
+  conversationId: "725a5469-3628-47f5-8fa1-86534a47889a",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+}
+2025-04-26T04:20:12.369Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 991799,
+  maxContextTokens: 991808,
+}
+2025-04-26T04:20:12.370Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 991799,
+  maxContextTokens: 991808,
+}
+2025-04-26T04:20:12.371Z debug: [BaseClient] tokenCountMap:
+{
+  c943ac8e-07a4-4147-abdc-668f865988be: 6,
+}
+2025-04-26T04:20:12.371Z debug: [BaseClient]
+{
+  promptTokens: 9,
+  remainingContextTokens: 991799,
+  payloadSize: 1,
+  maxContextTokens: 991808,
+}
+2025-04-26T04:20:12.374Z debug: [BaseClient] tokenCountMap
+{
+  c943ac8e-07a4-4147-abdc-668f865988be: 6,
+}
+2025-04-26T04:20:12.374Z debug: [BaseClient] userMessage
+{
+  messageId: "c943ac8e-07a4-4147-abdc-668f865988be",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+  conversationId: "725a5469-3628-47f5-8fa1-86534a47889a",
+  sender: "User",
+  text: "gem?",
+  isCreatedByUser: true,
+  tokenCount: 6,
+}
+2025-04-26T04:20:12.461Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T04:20:12.565Z error: [GoogleClient] There was an issue generating the completion [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/... [truncated]
+2025-04-26T04:20:12.566Z error: [AskController] Error handling request { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.goog... [truncated]
+2025-04-26T04:20:12.569Z error: [handleAbortError] AI response error; aborting request: { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://genera... [truncated]
+2025-04-26T04:20:12.570Z warn: AI Response error for conversation 725a5469-3628-47f5-8fa1-86534a47889a likely caused by Google censor/filter
+2025-04-26T04:20:12.572Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T04:20:12.607Z debug: [AskController] Performing cleanup
+2025-04-26T04:20:12.607Z debug: [AskController] Cleaning up abort controller
+2025-04-26T04:20:12.608Z debug: [AskController] Cleanup completed
+2025-04-26T04:20:12.862Z debug: [streamAudio] user: 680c5b46228e49878c74e48f | start stream audio
+2025-04-26T04:20:12.868Z error: [streamAudio] user: 680c5b46228e49878c74e48f | Failed to stream audio: Error: Custom config not found
+2025-04-26T04:20:32.340Z debug: [AskController]
+{
+  text: "gem?",
+  conversationId: "725a5469-3628-47f5-8fa1-86534a47889a",
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-2.0-flash-live-001",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T04:20:32.342Z debug: Creating GenAI client
+2025-04-26T04:20:32.343Z debug: [BaseClient] Loading history:
+{
+  conversationId: "725a5469-3628-47f5-8fa1-86534a47889a",
+  parentMessageId: "9ff333a6-364e-45d1-8211-c578c98327d1",
+}
+2025-04-26T04:20:32.370Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 991648,
+  maxContextTokens: 991808,
+}
+2025-04-26T04:20:32.370Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 991648,
+  maxContextTokens: 991808,
+}
+2025-04-26T04:20:32.370Z debug: [BaseClient] tokenCountMap:
+{
+  c943ac8e-07a4-4147-abdc-668f865988be: 6,
+  9ff333a6-364e-45d1-8211-c578c98327d1: 145,
+  d802eeb2-dfca-4c80-9c7b-1a1ba8217139: 6,
+}
+2025-04-26T04:20:32.371Z debug: [BaseClient]
+{
+  promptTokens: 160,
+  remainingContextTokens: 991648,
+  payloadSize: 3,
+  maxContextTokens: 991808,
+}
+2025-04-26T04:20:32.371Z debug: [BaseClient] tokenCountMap
+{
+  c943ac8e-07a4-4147-abdc-668f865988be: 6,
+  9ff333a6-364e-45d1-8211-c578c98327d1: 145,
+  d802eeb2-dfca-4c80-9c7b-1a1ba8217139: 6,
+}
+2025-04-26T04:20:32.371Z debug: [BaseClient] userMessage
+{
+  messageId: "d802eeb2-dfca-4c80-9c7b-1a1ba8217139",
+  parentMessageId: "9ff333a6-364e-45d1-8211-c578c98327d1",
+  conversationId: "725a5469-3628-47f5-8fa1-86534a47889a",
+  sender: "User",
+  text: "gem?",
+  isCreatedByUser: true,
+  tokenCount: 6,
+}
+2025-04-26T04:20:32.371Z debug: [BaseClient] Skipping c943ac8e-07a4-4147-abdc-668f865988be: already had a token count.
+2025-04-26T04:20:32.371Z debug: [BaseClient] Skipping 9ff333a6-364e-45d1-8211-c578c98327d1: already had a token count.
+2025-04-26T04:20:32.427Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T04:20:32.440Z error: [GoogleClient] There was an issue generating the completion [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/... [truncated]
+2025-04-26T04:20:32.441Z error: [AskController] Error handling request { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.goog... [truncated]
+2025-04-26T04:20:32.442Z error: [handleAbortError] AI response error; aborting request: { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://genera... [truncated]
+2025-04-26T04:20:32.443Z warn: AI Response error for conversation 725a5469-3628-47f5-8fa1-86534a47889a likely caused by Google censor/filter
+2025-04-26T04:20:32.444Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T04:20:32.473Z debug: [AskController] Performing cleanup
+2025-04-26T04:20:32.474Z debug: [AskController] Cleaning up abort controller
+2025-04-26T04:20:32.474Z debug: [AskController] Cleanup completed
+2025-04-26T04:20:32.784Z debug: [streamAudio] user: 680c5b46228e49878c74e48f | start stream audio
+2025-04-26T04:20:32.790Z error: [streamAudio] user: 680c5b46228e49878c74e48f | Failed to stream audio: Error: Custom config not found
+2025-04-26T04:21:58.650Z debug: [FinalizationRegistry] Cleaning up client for user 680c5b46228e49878c74e48f
+2025-04-26T04:21:58.650Z debug: [FinalizationRegistry] Cleaning up client for user 680c5b46228e49878c74e48f
+2025-04-26T04:24:22.725Z info: [Optional] Redis not initialized.
+2025-04-26T04:24:33.780Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T04:24:35.545Z info: Connected to MongoDB
+2025-04-26T04:24:36.266Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T04:24:36.273Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T04:24:36.276Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T04:24:36.341Z info: No changes needed for 'USER' role permissions
+2025-04-26T04:24:36.366Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T04:24:36.420Z error: There was an uncaught error: listen EADDRINUSE: address already in use ::1:3080
+2025-04-26T04:25:06.487Z debug: [AskController]
+{
+  text: "gem",
+  conversationId: null,
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-2.0-flash-live-001",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T04:25:06.490Z debug: Creating GenAI client
+2025-04-26T04:25:06.490Z debug: [BaseClient] Loading history:
+{
+  conversationId: "9f7288d4-fd07-4d05-afec-04325e36f4a9",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+}
+2025-04-26T04:25:06.522Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 991800,
+  maxContextTokens: 991808,
+}
+2025-04-26T04:25:06.523Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 991800,
+  maxContextTokens: 991808,
+}
+2025-04-26T04:25:06.523Z debug: [BaseClient] tokenCountMap:
+{
+  26cd2db4-9269-462b-bf1d-0ff277f73a69: 5,
+}
+2025-04-26T04:25:06.523Z debug: [BaseClient]
+{
+  promptTokens: 8,
+  remainingContextTokens: 991800,
+  payloadSize: 1,
+  maxContextTokens: 991808,
+}
+2025-04-26T04:25:06.524Z debug: [BaseClient] tokenCountMap
+{
+  26cd2db4-9269-462b-bf1d-0ff277f73a69: 5,
+}
+2025-04-26T04:25:06.524Z debug: [BaseClient] userMessage
+{
+  messageId: "26cd2db4-9269-462b-bf1d-0ff277f73a69",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+  conversationId: "9f7288d4-fd07-4d05-afec-04325e36f4a9",
+  sender: "User",
+  text: "gem",
+  isCreatedByUser: true,
+  tokenCount: 5,
+}
+2025-04-26T04:25:06.590Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T04:25:06.607Z error: [GoogleClient] There was an issue generating the completion [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/... [truncated]
+2025-04-26T04:25:06.608Z error: [AskController] Error handling request { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.goog... [truncated]
+2025-04-26T04:25:06.610Z error: [handleAbortError] AI response error; aborting request: { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://genera... [truncated]
+2025-04-26T04:25:06.610Z warn: AI Response error for conversation 9f7288d4-fd07-4d05-afec-04325e36f4a9 likely caused by Google censor/filter
+2025-04-26T04:25:06.612Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T04:25:06.644Z debug: [AskController] Performing cleanup
+2025-04-26T04:25:06.645Z debug: [AskController] Cleaning up abort controller
+2025-04-26T04:25:06.645Z debug: [AskController] Cleanup completed
+2025-04-26T04:25:06.979Z debug: [streamAudio] user: 680c5b46228e49878c74e48f | start stream audio
+2025-04-26T04:25:06.988Z error: [streamAudio] user: 680c5b46228e49878c74e48f | Failed to stream audio: Error: Custom config not found
+2025-04-26T04:25:51.729Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T04:28:17.153Z info: [Optional] Redis not initialized.
+2025-04-26T04:28:24.224Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T04:28:25.262Z info: Connected to MongoDB
+2025-04-26T04:28:25.954Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T04:28:25.959Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T04:28:25.961Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T04:28:26.018Z info: No changes needed for 'USER' role permissions
+2025-04-26T04:28:26.056Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T04:28:26.102Z info: Server listening at http://localhost:3080
+2025-04-26T04:29:49.604Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T04:29:50.060Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T04:30:03.060Z debug: [AskController]
+{
+  text: "gem?",
+  conversationId: null,
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-pro",
+  modelsConfig: "exists",
+}
+2025-04-26T04:30:03.098Z debug: Creating GenAI client
+2025-04-26T04:30:03.101Z debug: [BaseClient] Loading history:
+{
+  conversationId: "69ea1b20-9017-42da-b4be-01cb8fd7bdc8",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+}
+2025-04-26T04:30:03.310Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 30711,
+  maxContextTokens: 30720,
+}
+2025-04-26T04:30:03.311Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 30711,
+  maxContextTokens: 30720,
+}
+2025-04-26T04:30:03.312Z debug: [BaseClient] tokenCountMap:
+{
+  29adf6ab-9de2-465d-b988-59af9635740d: 6,
+}
+2025-04-26T04:30:03.312Z debug: [BaseClient]
+{
+  promptTokens: 9,
+  remainingContextTokens: 30711,
+  payloadSize: 1,
+  maxContextTokens: 30720,
+}
+2025-04-26T04:30:03.314Z debug: [BaseClient] tokenCountMap
+{
+  29adf6ab-9de2-465d-b988-59af9635740d: 6,
+}
+2025-04-26T04:30:03.314Z debug: [BaseClient] userMessage
+{
+  messageId: "29adf6ab-9de2-465d-b988-59af9635740d",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+  conversationId: "69ea1b20-9017-42da-b4be-01cb8fd7bdc8",
+  sender: "User",
+  text: "gem?",
+  isCreatedByUser: true,
+  tokenCount: 6,
+}
+2025-04-26T04:30:03.443Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T04:30:03.506Z error: [GoogleClient] There was an issue generating the completion [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/... [truncated]
+2025-04-26T04:30:03.508Z error: [AskController] Error handling request { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.goog... [truncated]
+2025-04-26T04:30:03.509Z error: [handleAbortError] AI response error; aborting request: { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://genera... [truncated]
+2025-04-26T04:30:03.510Z warn: AI Response error for conversation 69ea1b20-9017-42da-b4be-01cb8fd7bdc8 likely caused by Google censor/filter
+2025-04-26T04:30:03.514Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T04:30:03.555Z debug: [AskController] Performing cleanup
+2025-04-26T04:30:03.555Z debug: [AskController] Cleaning up abort controller
+2025-04-26T04:30:03.556Z debug: [AskController] Cleanup completed
+2025-04-26T04:30:17.538Z debug: [AskController]
+{
+  text: "gem",
+  conversationId: "69ea1b20-9017-42da-b4be-01cb8fd7bdc8",
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-2.5-pro-preview-03-25",
+  modelsConfig: "exists",
+}
+2025-04-26T04:30:17.541Z debug: Creating GenAI client
+2025-04-26T04:30:17.541Z debug: [BaseClient] Loading history:
+{
+  conversationId: "69ea1b20-9017-42da-b4be-01cb8fd7bdc8",
+  parentMessageId: "21fa21f0-2a14-4993-95e2-7dee1ad77a9d",
+}
+2025-04-26T04:30:17.567Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 991658,
+  maxContextTokens: 991808,
+}
+2025-04-26T04:30:17.567Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 991658,
+  maxContextTokens: 991808,
+}
+2025-04-26T04:30:17.567Z debug: [BaseClient] tokenCountMap:
+{
+  29adf6ab-9de2-465d-b988-59af9635740d: 6,
+  21fa21f0-2a14-4993-95e2-7dee1ad77a9d: 136,
+  f9ba3176-490e-4dd7-aa1d-ffc0404f2f78: 5,
+}
+2025-04-26T04:30:17.568Z debug: [BaseClient]
+{
+  promptTokens: 150,
+  remainingContextTokens: 991658,
+  payloadSize: 3,
+  maxContextTokens: 991808,
+}
+2025-04-26T04:30:17.568Z debug: [BaseClient] tokenCountMap
+{
+  29adf6ab-9de2-465d-b988-59af9635740d: 6,
+  21fa21f0-2a14-4993-95e2-7dee1ad77a9d: 136,
+  f9ba3176-490e-4dd7-aa1d-ffc0404f2f78: 5,
+}
+2025-04-26T04:30:17.568Z debug: [BaseClient] userMessage
+{
+  messageId: "f9ba3176-490e-4dd7-aa1d-ffc0404f2f78",
+  parentMessageId: "21fa21f0-2a14-4993-95e2-7dee1ad77a9d",
+  conversationId: "69ea1b20-9017-42da-b4be-01cb8fd7bdc8",
+  sender: "User",
+  text: "gem",
+  isCreatedByUser: true,
+  tokenCount: 5,
+}
+2025-04-26T04:30:17.568Z debug: [BaseClient] Skipping 29adf6ab-9de2-465d-b988-59af9635740d: already had a token count.
+2025-04-26T04:30:17.569Z debug: [BaseClient] Skipping 21fa21f0-2a14-4993-95e2-7dee1ad77a9d: already had a token count.
+2025-04-26T04:30:17.620Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T04:30:17.647Z error: [GoogleClient] There was an issue generating the completion [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/... [truncated]
+2025-04-26T04:30:17.649Z error: [AskController] Error handling request { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.goog... [truncated]
+2025-04-26T04:30:17.650Z error: [handleAbortError] AI response error; aborting request: { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://genera... [truncated]
+2025-04-26T04:30:17.668Z warn: AI Response error for conversation 69ea1b20-9017-42da-b4be-01cb8fd7bdc8 likely caused by Google censor/filter
+2025-04-26T04:30:17.670Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T04:30:17.701Z debug: [AskController] Performing cleanup
+2025-04-26T04:30:17.701Z debug: [AskController] Cleaning up abort controller
+2025-04-26T04:30:17.701Z debug: [AskController] Cleanup completed
+2025-04-26T04:31:48.289Z debug: [FinalizationRegistry] Cleaning up client for user 680c5b46228e49878c74e48f
+2025-04-26T04:31:48.290Z debug: [FinalizationRegistry] Cleaning up client for user 680c5b46228e49878c74e48f
+2025-04-26T04:44:43.253Z info: [Optional] Redis not initialized.
+2025-04-26T04:44:52.861Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T04:44:43.253Z info: [Optional] Redis not initialized.
+2025-04-26T04:44:52.861Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T04:44:53.877Z info: Connected to MongoDB
+2025-04-26T04:44:53.897Z info: Connected to MongoDB
+2025-04-26T04:44:54.909Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T04:44:54.912Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T04:44:54.914Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T04:44:54.964Z info: No changes needed for 'USER' role permissions
+2025-04-26T04:44:54.972Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T04:44:54.987Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T04:44:54.975Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T04:44:54.977Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T04:44:55.029Z info: No changes needed for 'USER' role permissions
+2025-04-26T04:44:55.047Z info: Server listening at http://localhost:3080
+2025-04-26T04:44:55.057Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T04:44:55.096Z error: There was an uncaught error: listen EADDRINUSE: address already in use ::1:3080
+2025-04-26T04:48:30.705Z info: [Optional] Redis not initialized.
+2025-04-26T04:48:38.293Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T04:48:31.087Z info: [Optional] Redis not initialized.
+2025-04-26T04:48:38.564Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T04:48:39.307Z info: Connected to MongoDB
+2025-04-26T04:48:39.436Z info: Connected to MongoDB
+2025-04-26T04:48:40.291Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T04:48:40.295Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T04:48:40.297Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T04:48:40.354Z info: No changes needed for 'USER' role permissions
+2025-04-26T04:48:40.380Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T04:48:40.421Z info: Server listening at http://localhost:3080
+2025-04-26T04:48:40.424Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T04:48:40.429Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T04:48:40.432Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T04:48:40.488Z info: No changes needed for 'USER' role permissions
+2025-04-26T04:48:41.117Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T04:48:41.156Z error: There was an uncaught error: listen EADDRINUSE: address already in use ::1:3080
+2025-04-26T04:53:32.895Z info: [Optional] Redis not initialized.
+2025-04-26T04:53:40.676Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T04:53:32.893Z info: [Optional] Redis not initialized.
+2025-04-26T04:53:40.670Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T04:53:41.850Z info: Connected to MongoDB
+2025-04-26T04:53:41.851Z info: Connected to MongoDB
+2025-04-26T04:53:42.883Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T04:53:42.893Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T04:53:42.895Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T04:53:42.971Z info: No changes needed for 'USER' role permissions
+2025-04-26T04:53:42.998Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T04:53:43.005Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "received": "file",
+      "code": "invalid_e... [truncated]
+2025-04-26T04:53:43.047Z info: Server listening at http://localhost:3080
+2025-04-26T04:53:43.017Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T04:53:43.021Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T04:53:43.637Z info: No changes needed for 'USER' role permissions
+2025-04-26T04:53:43.660Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T04:53:43.701Z error: There was an uncaught error: listen EADDRINUSE: address already in use ::1:3080
+2025-04-26T04:53:47.067Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T04:53:47.312Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T04:57:31.973Z info: [Optional] Redis not initialized.
+2025-04-26T04:57:38.709Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T04:57:32.165Z info: [Optional] Redis not initialized.
+2025-04-26T04:57:38.902Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T04:57:39.639Z info: Connected to MongoDB
+2025-04-26T04:57:39.785Z info: Connected to MongoDB
+2025-04-26T04:57:40.609Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T04:57:40.612Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T04:57:40.614Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T04:57:40.671Z info: No changes needed for 'USER' role permissions
+2025-04-26T04:57:40.695Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T04:57:40.733Z info: Server listening at http://localhost:3080
+2025-04-26T04:57:40.742Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T04:57:40.745Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T04:57:40.746Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T04:57:40.800Z info: No changes needed for 'USER' role permissions
+2025-04-26T04:57:41.435Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T04:57:41.468Z error: There was an uncaught error: listen EADDRINUSE: address already in use ::1:3080
+2025-04-26T05:30:18.619Z info: [Optional] Redis not initialized.
+2025-04-26T05:30:30.966Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T05:30:18.681Z info: [Optional] Redis not initialized.
+2025-04-26T05:30:30.964Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T05:30:32.154Z info: Connected to MongoDB
+2025-04-26T05:30:32.153Z info: Connected to MongoDB
+2025-04-26T05:30:33.211Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T05:30:33.230Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T05:30:33.217Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T05:30:33.223Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T05:30:33.236Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T05:30:33.239Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T05:30:33.288Z info: No changes needed for 'USER' role permissions
+2025-04-26T05:30:33.306Z info: No changes needed for 'USER' role permissions
+2025-04-26T05:30:33.308Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T05:30:33.384Z info: Server listening at http://localhost:3080
+2025-04-26T05:30:33.962Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T05:30:34.016Z error: There was an uncaught error: listen EADDRINUSE: address already in use ::1:3080
+2025-04-26T05:30:49.141Z info: [Optional] Redis not initialized.
+2025-04-26T05:30:58.733Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T05:30:49.282Z info: [Optional] Redis not initialized.
+2025-04-26T05:30:58.903Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T05:30:59.749Z info: Connected to MongoDB
+2025-04-26T05:30:59.947Z info: Connected to MongoDB
+2025-04-26T05:31:00.709Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T05:31:00.724Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T05:31:00.729Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T05:31:00.833Z info: No changes needed for 'USER' role permissions
+2025-04-26T05:31:00.865Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T05:31:00.889Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T05:31:00.894Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T05:31:00.897Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T05:31:00.979Z info: No changes needed for 'USER' role permissions
+2025-04-26T05:31:01.005Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T05:31:27.746Z info: [Optional] Redis not initialized.
+2025-04-26T05:31:34.600Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T05:31:27.722Z info: [Optional] Redis not initialized.
+2025-04-26T05:31:34.656Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T05:31:35.549Z info: Connected to MongoDB
+2025-04-26T05:31:35.581Z info: Connected to MongoDB
+2025-04-26T05:31:36.614Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T05:31:36.617Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T05:31:36.619Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T05:31:36.680Z info: No changes needed for 'USER' role permissions
+2025-04-26T05:31:37.345Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T05:31:37.411Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T05:31:37.415Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T05:31:37.417Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T05:31:37.472Z info: No changes needed for 'USER' role permissions
+2025-04-26T05:31:37.496Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T05:39:47.222Z info: [Optional] Redis not initialized.
+2025-04-26T05:39:54.904Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T05:39:47.230Z info: [Optional] Redis not initialized.
+2025-04-26T05:39:54.935Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T05:39:56.261Z info: Connected to MongoDB
+2025-04-26T05:39:56.261Z info: Connected to MongoDB
+2025-04-26T05:39:57.293Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T05:39:57.298Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T05:39:57.301Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T05:39:57.363Z info: No changes needed for 'USER' role permissions
+2025-04-26T05:39:57.387Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T05:39:58.062Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T05:39:58.065Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T05:39:58.067Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T05:39:58.124Z info: No changes needed for 'USER' role permissions
+2025-04-26T05:39:58.148Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T05:40:14.853Z info: [Optional] Redis not initialized.
+2025-04-26T05:40:21.504Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T05:40:14.810Z info: [Optional] Redis not initialized.
+2025-04-26T05:40:21.511Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T05:40:22.500Z info: Connected to MongoDB
+2025-04-26T05:40:22.534Z info: Connected to MongoDB
+2025-04-26T05:40:23.718Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T05:40:23.721Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T05:40:23.723Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T05:40:23.763Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T05:40:23.779Z info: No changes needed for 'USER' role permissions
+2025-04-26T05:40:23.766Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T05:40:23.768Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T05:40:24.313Z info: No changes needed for 'USER' role permissions
+2025-04-26T05:40:24.315Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T05:40:24.337Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T07:26:33.852Z info: [Optional] Redis not initialized.
+2025-04-26T07:26:43.044Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T07:26:44.148Z info: Connected to MongoDB
+2025-04-26T07:26:45.028Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T07:26:45.032Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T07:26:45.034Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T07:26:45.096Z info: No changes needed for 'USER' role permissions
+2025-04-26T07:26:45.122Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T07:26:45.178Z info: Server listening at http://localhost:3080
+2025-04-26T07:27:40.714Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T07:27:41.067Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T07:28:11.554Z debug: [AskController]
+{
+  text: "hey",
+  conversationId: null,
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-2.0-flash-live-001",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T07:28:11.613Z debug: Creating GenAI client
+2025-04-26T07:28:11.618Z debug: [BaseClient] Loading history:
+{
+  conversationId: "911683fe-5f4f-44b1-bd60-58fa94911eb9",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+}
+2025-04-26T07:28:11.996Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 991800,
+  maxContextTokens: 991808,
+}
+2025-04-26T07:28:11.997Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 991800,
+  maxContextTokens: 991808,
+}
+2025-04-26T07:28:11.998Z debug: [BaseClient] tokenCountMap:
+{
+  73229707-1fb7-43a1-8c33-79423ecb66cc: 5,
+}
+2025-04-26T07:28:11.999Z debug: [BaseClient]
+{
+  promptTokens: 8,
+  remainingContextTokens: 991800,
+  payloadSize: 1,
+  maxContextTokens: 991808,
+}
+2025-04-26T07:28:12.002Z debug: [BaseClient] tokenCountMap
+{
+  73229707-1fb7-43a1-8c33-79423ecb66cc: 5,
+}
+2025-04-26T07:28:12.003Z debug: [BaseClient] userMessage
+{
+  messageId: "73229707-1fb7-43a1-8c33-79423ecb66cc",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+  conversationId: "911683fe-5f4f-44b1-bd60-58fa94911eb9",
+  sender: "User",
+  text: "hey",
+  isCreatedByUser: true,
+  tokenCount: 5,
+}
+2025-04-26T07:28:12.131Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T07:28:12.192Z error: [GoogleClient] There was an issue generating the completion [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/... [truncated]
+2025-04-26T07:28:12.195Z error: [AskController] Error handling request { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.goog... [truncated]
+2025-04-26T07:28:12.198Z error: [handleAbortError] AI response error; aborting request: { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://genera... [truncated]
+2025-04-26T07:28:12.201Z warn: AI Response error for conversation 911683fe-5f4f-44b1-bd60-58fa94911eb9 likely caused by Google censor/filter
+2025-04-26T07:28:12.206Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T07:28:12.275Z debug: [AskController] Performing cleanup
+2025-04-26T07:28:12.276Z debug: [AskController] Cleaning up abort controller
+2025-04-26T07:28:12.277Z debug: [AskController] Cleanup completed
+2025-04-26T07:28:12.704Z debug: [streamAudio] user: 680c5b46228e49878c74e48f | start stream audio
+2025-04-26T07:28:12.710Z error: [streamAudio] user: 680c5b46228e49878c74e48f | Failed to stream audio: Error: Custom config not found
+2025-04-26T07:29:58.471Z debug: [FinalizationRegistry] Cleaning up client for user 680c5b46228e49878c74e48f
+2025-04-26T07:45:45.751Z info: [Optional] Redis not initialized.
+2025-04-26T07:45:57.559Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T07:45:58.887Z info: Connected to MongoDB
+2025-04-26T07:45:59.797Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T07:45:59.801Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T07:45:59.804Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T07:45:59.877Z info: No changes needed for 'USER' role permissions
+2025-04-26T07:45:59.906Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T07:45:59.981Z info: Server listening at http://localhost:3080
+2025-04-26T07:46:05.335Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T07:46:05.630Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T07:46:41.154Z debug: [AskController]
+{
+  text: "hi",
+  conversationId: null,
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-2.0-flash-live-001",
+  modelsConfig: "exists",
+}
+2025-04-26T07:46:41.190Z debug: Creating GenAI client
+2025-04-26T07:46:41.194Z debug: [BaseClient] Loading history:
+{
+  conversationId: "a1d18978-c3d3-4390-b3d7-8de730f2e806",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+}
+2025-04-26T07:46:41.449Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 991800,
+  maxContextTokens: 991808,
+}
+2025-04-26T07:46:41.450Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 991800,
+  maxContextTokens: 991808,
+}
+2025-04-26T07:46:41.451Z debug: [BaseClient] tokenCountMap:
+{
+  a522cd62-8269-460b-9d1f-adcd21fe7bd9: 5,
+}
+2025-04-26T07:46:41.451Z debug: [BaseClient]
+{
+  promptTokens: 8,
+  remainingContextTokens: 991800,
+  payloadSize: 1,
+  maxContextTokens: 991808,
+}
+2025-04-26T07:46:41.453Z debug: [BaseClient] tokenCountMap
+{
+  a522cd62-8269-460b-9d1f-adcd21fe7bd9: 5,
+}
+2025-04-26T07:46:41.453Z debug: [BaseClient] userMessage
+{
+  messageId: "a522cd62-8269-460b-9d1f-adcd21fe7bd9",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+  conversationId: "a1d18978-c3d3-4390-b3d7-8de730f2e806",
+  sender: "User",
+  text: "hi",
+  isCreatedByUser: true,
+  tokenCount: 5,
+}
+2025-04-26T07:46:41.552Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T07:46:41.625Z error: [GoogleClient] There was an issue generating the completion [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/... [truncated]
+2025-04-26T07:46:41.628Z error: [AskController] Error handling request { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.goog... [truncated]
+2025-04-26T07:46:41.630Z error: [handleAbortError] AI response error; aborting request: { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://genera... [truncated]
+2025-04-26T07:46:41.632Z warn: AI Response error for conversation a1d18978-c3d3-4390-b3d7-8de730f2e806 likely caused by Google censor/filter
+2025-04-26T07:46:41.635Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T07:46:41.684Z debug: [AskController] Performing cleanup
+2025-04-26T07:46:41.685Z debug: [AskController] Cleaning up abort controller
+2025-04-26T07:46:41.686Z debug: [AskController] Cleanup completed
+2025-04-26T07:46:55.990Z debug: [AskController]
+{
+  text: "hi",
+  conversationId: "a1d18978-c3d3-4390-b3d7-8de730f2e806",
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-2.0-flash-live-001",
+  modelsConfig: "exists",
+}
+2025-04-26T07:46:55.994Z debug: Creating GenAI client
+2025-04-26T07:46:55.995Z debug: [BaseClient] Loading history:
+{
+  conversationId: "a1d18978-c3d3-4390-b3d7-8de730f2e806",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+}
+2025-04-26T07:46:56.022Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 991800,
+  maxContextTokens: 991808,
+}
+2025-04-26T07:46:56.022Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 991800,
+  maxContextTokens: 991808,
+}
+2025-04-26T07:46:56.022Z debug: [BaseClient] tokenCountMap:
+{
+  a522cd62-8269-460b-9d1f-adcd21fe7bd9: 5,
+}
+2025-04-26T07:46:56.023Z debug: [BaseClient]
+{
+  promptTokens: 8,
+  remainingContextTokens: 991800,
+  payloadSize: 1,
+  maxContextTokens: 991808,
+}
+2025-04-26T07:46:56.023Z debug: [BaseClient] tokenCountMap
+{
+  a522cd62-8269-460b-9d1f-adcd21fe7bd9: 5,
+}
+2025-04-26T07:46:56.023Z debug: [BaseClient] userMessage
+{
+  messageId: "a522cd62-8269-460b-9d1f-adcd21fe7bd9",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+  conversationId: "a1d18978-c3d3-4390-b3d7-8de730f2e806",
+  sender: "User",
+  text: "hi",
+  isCreatedByUser: true,
+  tokenCount: 5,
+}
+2025-04-26T07:46:56.088Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T07:46:56.096Z error: [GoogleClient] There was an issue generating the completion [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/... [truncated]
+2025-04-26T07:46:56.098Z error: [AskController] Error handling request { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.goog... [truncated]
+2025-04-26T07:46:56.099Z error: [handleAbortError] AI response error; aborting request: { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://genera... [truncated]
+2025-04-26T07:46:56.101Z warn: AI Response error for conversation a1d18978-c3d3-4390-b3d7-8de730f2e806 likely caused by Google censor/filter
+2025-04-26T07:46:56.103Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T07:46:56.136Z debug: [AskController] Performing cleanup
+2025-04-26T07:46:56.137Z debug: [AskController] Cleaning up abort controller
+2025-04-26T07:46:56.137Z debug: [AskController] Cleanup completed
+2025-04-26T07:48:24.511Z debug: [FinalizationRegistry] Cleaning up client for user 680c5b46228e49878c74e48f
+2025-04-26T07:48:24.512Z debug: [FinalizationRegistry] Cleaning up client for user 680c5b46228e49878c74e48f
+2025-04-26T08:32:24.455Z info: [Optional] Redis not initialized.
+2025-04-26T08:32:35.727Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T08:32:37.201Z info: Connected to MongoDB
+2025-04-26T08:32:37.915Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T08:32:37.920Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T08:32:37.922Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T08:32:37.987Z info: No changes needed for 'USER' role permissions
+2025-04-26T08:32:38.015Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T08:32:38.091Z info: Server listening at http://localhost:3080
+2025-04-26T08:35:52.447Z info: [Optional] Redis not initialized.
+2025-04-26T08:36:01.056Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T08:36:02.135Z info: Connected to MongoDB
+2025-04-26T08:36:03.031Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T08:36:03.034Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T08:36:03.036Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T08:36:03.092Z info: No changes needed for 'USER' role permissions
+2025-04-26T08:36:03.124Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T08:36:03.168Z info: Server listening at http://localhost:3080
+2025-04-26T08:41:39.162Z info: [Optional] Redis not initialized.
+2025-04-26T08:41:47.226Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T08:41:48.325Z info: Connected to MongoDB
+2025-04-26T08:41:49.044Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T08:41:49.048Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T08:41:49.051Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T08:41:49.124Z info: No changes needed for 'USER' role permissions
+2025-04-26T08:41:49.153Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T08:41:49.203Z info: Server listening at http://localhost:3080
+2025-04-26T08:46:07.682Z info: [Optional] Redis not initialized.
+2025-04-26T08:46:16.021Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T08:46:17.084Z info: Connected to MongoDB
+2025-04-26T08:46:17.765Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T08:46:17.769Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T08:46:17.772Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T08:46:17.837Z info: No changes needed for 'USER' role permissions
+2025-04-26T08:46:17.882Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T08:46:17.934Z info: Server listening at http://localhost:3080
+2025-04-26T09:03:50.991Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T09:03:52.988Z debug: [AskController]
+{
+  text: "HAPPY",
+  conversationId: "a1d18978-c3d3-4390-b3d7-8de730f2e806",
+  endpoint: "azureOpenAI",
+  resendFiles: true,
+    modelOptions.model: "podplay-gpt-4o",
+  modelsConfig: "exists",
+}
+2025-04-26T09:03:53.241Z debug: [BaseClient] Loading history:
+{
+  conversationId: "a1d18978-c3d3-4390-b3d7-8de730f2e806",
+  parentMessageId: "bd885355-752d-497d-ae24-d06444a0c95e",
+}
+2025-04-26T09:03:53.593Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 127342,
+  maxContextTokens: 127500,
+}
+2025-04-26T09:03:53.594Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 127342,
+  maxContextTokens: 127500,
+}
+2025-04-26T09:03:53.595Z debug: [BaseClient] tokenCountMap:
+{
+  a522cd62-8269-460b-9d1f-adcd21fe7bd9: 5,
+  bd885355-752d-497d-ae24-d06444a0c95e: 144,
+  84e1003c-5ba0-42ae-a739-725ceeb512ee: 6,
+}
+2025-04-26T09:03:53.596Z debug: [BaseClient]
+{
+  promptTokens: 158,
+  remainingContextTokens: 127342,
+  payloadSize: 3,
+  maxContextTokens: 127500,
+}
+2025-04-26T09:03:53.596Z debug: [BaseClient] tokenCountMap
+{
+  a522cd62-8269-460b-9d1f-adcd21fe7bd9: 5,
+  bd885355-752d-497d-ae24-d06444a0c95e: 144,
+  84e1003c-5ba0-42ae-a739-725ceeb512ee: 6,
+  instructions: undefined,
+}
+2025-04-26T09:03:53.599Z debug: [BaseClient] userMessage
+{
+  messageId: "84e1003c-5ba0-42ae-a739-725ceeb512ee",
+  parentMessageId: "bd885355-752d-497d-ae24-d06444a0c95e",
+  conversationId: "a1d18978-c3d3-4390-b3d7-8de730f2e806",
+  sender: "User",
+  text: "HAPPY",
+  isCreatedByUser: true,
+  tokenCount: 6,
+}
+2025-04-26T09:03:53.600Z debug: [BaseClient] Skipping a522cd62-8269-460b-9d1f-adcd21fe7bd9: already had a token count.
+2025-04-26T09:03:53.600Z debug: [BaseClient] Skipping bd885355-752d-497d-ae24-d06444a0c95e: already had a token count.
+2025-04-26T09:03:53.609Z debug: [OpenAIClient] chatCompletion
+{
+  baseURL: "https://podplaystudio.openai.azure.com/openai/deployments/podplay-gpt-4o/chat/completions?api-versio... [truncated]",
+    modelOptions.model: "podplay-gpt-4o",
+    modelOptions.user: "680c5b46228e49878c74e48f",
+    modelOptions.stream: true,
+    // 3 message(s)
+    modelOptions.messages: [{"role":"user","content":"hi"},{"role":"assistant","content":"{ \"type\": \"undefined\", \"info\": \"[GoogleGenerativeAI Error]: Er... [truncated],{"role":"user","content":"HAPPY"}],
+}
+2025-04-26T09:03:53.663Z debug: Making request to https://podplaystudio.openai.azure.com/openai/deployments/podplay-gpt-4o/chat/completions?api-version=2025-01-01-preview
+2025-04-26T09:03:53.712Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T09:03:55.205Z debug: [OpenAIClient] chatCompletion response
+{
+  object: "chat.completion",
+  // 1 prompt_filter_result(s)
+  prompt_filter_results: [{"prompt_index":0,"content_filter_results":{"hate":{"filtered":false,"severity":"safe"},"jailbreak":... [truncated]],
+    usage.completion_tokens: 16,
+    completion_tokens_details.accepted_prediction_tokens: 0,
+    completion_tokens_details.audio_tokens: 0,
+    completion_tokens_details.reasoning_tokens: 0,
+    completion_tokens_details.rejected_prediction_tokens: 0,
+    usage.prompt_tokens: 158,
+    prompt_tokens_details.audio_tokens: 0,
+    prompt_tokens_details.cached_tokens: 0,
+    usage.total_tokens: 174,
+  id: "chatcmpl-BQVjs4sxVCKudD8FRfhvTk6abrtfG",
+  // 1 choice(s)
+  choices: [{"content_filter_results":{},"message":{"role":"assistant","content":"I'm glad to see you're happy! ... [truncated]],
+  created: 1745658232,
+  model: "gpt-4o-2024-11-20",
+  system_fingerprint: "fp_ee1d74bde0",
+}
+2025-04-26T09:03:55.239Z debug: [spendTokens] conversationId: a1d18978-c3d3-4390-b3d7-8de730f2e806 | Context: message | Token usage:
+{
+  promptTokens: 158,
+  completionTokens: 16,
+}
+2025-04-26T09:03:55.318Z debug: [spendTokens] No transactions incurred against balance
+2025-04-26T09:03:55.318Z debug: [spendTokens] conversationId: a1d18978-c3d3-4390-b3d7-8de730f2e806 | Context: reasoning | Token usage:
+{
+  promptTokens: undefined,
+  completionTokens: 0,
+}
+2025-04-26T09:03:55.352Z debug: [spendTokens] No transactions incurred against balance
+2025-04-26T09:03:55.383Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T09:03:55.439Z debug: [AskController] Request closed
+2025-04-26T09:03:55.468Z debug: [AskController] Performing cleanup
+2025-04-26T09:03:55.469Z debug: [AskController] Cleaning up abort controller
+2025-04-26T09:03:55.470Z debug: [AskController] Cleanup completed
+2025-04-26T09:05:46.095Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T09:59:22.992Z info: [Optional] Redis not initialized.
+2025-04-26T09:59:33.280Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T09:59:34.658Z info: Connected to MongoDB
+2025-04-26T09:59:35.484Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T09:59:35.490Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T09:59:35.494Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T09:59:35.581Z info: No changes needed for 'USER' role permissions
+2025-04-26T09:59:35.607Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T09:59:35.667Z info: Server listening at http://localhost:3080
+2025-04-26T10:02:13.895Z info: [Optional] Redis not initialized.
+2025-04-26T10:02:20.837Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T10:02:21.868Z info: Connected to MongoDB
+2025-04-26T10:02:22.756Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T10:02:22.759Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T10:02:22.761Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T10:02:22.828Z info: No changes needed for 'USER' role permissions
+2025-04-26T10:02:22.853Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T10:02:22.902Z info: Server listening at http://localhost:3080
+2025-04-26T10:08:19.226Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T10:08:19.473Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T10:08:48.885Z debug: [AskController]
+{
+  text: "ff",
+  conversationId: null,
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-2.0-flash-live-001",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T10:08:48.929Z debug: Creating GenAI client
+2025-04-26T10:08:48.931Z debug: [BaseClient] Loading history:
+{
+  conversationId: "54e227fc-f505-4673-a0df-2dde5635b961",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+}
+2025-04-26T10:08:49.149Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 991800,
+  maxContextTokens: 991808,
+}
+2025-04-26T10:08:49.150Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 991800,
+  maxContextTokens: 991808,
+}
+2025-04-26T10:08:49.151Z debug: [BaseClient] tokenCountMap:
+{
+  19d42933-2aa8-40e0-a6c8-791ff35cb86e: 5,
+}
+2025-04-26T10:08:49.152Z debug: [BaseClient]
+{
+  promptTokens: 8,
+  remainingContextTokens: 991800,
+  payloadSize: 1,
+  maxContextTokens: 991808,
+}
+2025-04-26T10:08:49.154Z debug: [BaseClient] tokenCountMap
+{
+  19d42933-2aa8-40e0-a6c8-791ff35cb86e: 5,
+}
+2025-04-26T10:08:49.155Z debug: [BaseClient] userMessage
+{
+  messageId: "19d42933-2aa8-40e0-a6c8-791ff35cb86e",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+  conversationId: "54e227fc-f505-4673-a0df-2dde5635b961",
+  sender: "User",
+  text: "ff",
+  isCreatedByUser: true,
+  tokenCount: 5,
+}
+2025-04-26T10:08:49.269Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T10:08:49.334Z error: [GoogleClient] There was an issue generating the completion [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/... [truncated]
+2025-04-26T10:08:49.336Z error: [AskController] Error handling request { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.goog... [truncated]
+2025-04-26T10:08:49.338Z error: [handleAbortError] AI response error; aborting request: { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://genera... [truncated]
+2025-04-26T10:08:49.339Z warn: AI Response error for conversation 54e227fc-f505-4673-a0df-2dde5635b961 likely caused by Google censor/filter
+2025-04-26T10:08:49.344Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T10:08:49.386Z debug: [AskController] Performing cleanup
+2025-04-26T10:08:49.387Z debug: [AskController] Cleaning up abort controller
+2025-04-26T10:08:49.387Z debug: [AskController] Cleanup completed
+2025-04-26T10:08:49.726Z debug: [streamAudio] user: 680c5b46228e49878c74e48f | start stream audio
+2025-04-26T10:08:49.732Z error: [streamAudio] user: 680c5b46228e49878c74e48f | Failed to stream audio: Error: Custom config not found
+2025-04-26T10:35:40.122Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T11:13:15.359Z info: [Optional] Redis not initialized.
+2025-04-26T11:13:26.273Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T11:13:27.483Z info: Connected to MongoDB
+2025-04-26T11:13:28.320Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T11:13:28.326Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T11:13:28.329Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T11:13:28.395Z info: No changes needed for 'USER' role permissions
+2025-04-26T11:13:28.425Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T11:13:28.510Z info: Server listening at http://localhost:3080
+2025-04-26T11:14:11.088Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T11:14:11.340Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T11:14:38.790Z debug: [AskController]
+{
+  text: "yo",
+  conversationId: null,
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-pro-vision",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T11:14:38.852Z debug: Creating GenAI client
+2025-04-26T11:14:38.856Z debug: [BaseClient] Loading history:
+{
+  conversationId: "68fb602c-d2d9-4d4d-a783-af6b3b3dce37",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+}
+2025-04-26T11:14:39.098Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 12280,
+  maxContextTokens: 12288,
+}
+2025-04-26T11:14:39.099Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 12280,
+  maxContextTokens: 12288,
+}
+2025-04-26T11:14:39.099Z debug: [BaseClient] tokenCountMap:
+{
+  768792f1-aad6-498f-a368-76e2bc48eda3: 5,
+}
+2025-04-26T11:14:39.100Z debug: [BaseClient]
+{
+  promptTokens: 8,
+  remainingContextTokens: 12280,
+  payloadSize: 1,
+  maxContextTokens: 12288,
+}
+2025-04-26T11:14:39.102Z debug: [BaseClient] tokenCountMap
+{
+  768792f1-aad6-498f-a368-76e2bc48eda3: 5,
+}
+2025-04-26T11:14:39.103Z debug: [BaseClient] userMessage
+{
+  messageId: "768792f1-aad6-498f-a368-76e2bc48eda3",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+  conversationId: "68fb602c-d2d9-4d4d-a783-af6b3b3dce37",
+  sender: "User",
+  text: "yo",
+  isCreatedByUser: true,
+  tokenCount: 5,
+}
+2025-04-26T11:14:39.199Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T11:14:39.266Z error: [GoogleClient] There was an issue generating the completion [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/... [truncated]
+2025-04-26T11:14:39.270Z error: [AskController] Error handling request { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.goog... [truncated]
+2025-04-26T11:14:39.272Z error: [handleAbortError] AI response error; aborting request: { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://genera... [truncated]
+2025-04-26T11:14:39.273Z warn: AI Response error for conversation 68fb602c-d2d9-4d4d-a783-af6b3b3dce37 likely caused by Google censor/filter
+2025-04-26T11:14:39.277Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T11:14:39.319Z debug: [AskController] Performing cleanup
+2025-04-26T11:14:39.319Z debug: [AskController] Cleaning up abort controller
+2025-04-26T11:14:39.320Z debug: [AskController] Cleanup completed
+2025-04-26T11:14:39.764Z debug: [streamAudio] user: 680c5b46228e49878c74e48f | start stream audio
+2025-04-26T11:14:39.773Z error: [streamAudio] user: 680c5b46228e49878c74e48f | Failed to stream audio: Error: Custom config not found
+2025-04-26T11:16:26.147Z debug: [FinalizationRegistry] Cleaning up client for user 680c5b46228e49878c74e48f
+2025-04-26T12:01:25.626Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T14:07:57.217Z info: [Optional] Redis not initialized.
+2025-04-26T14:08:07.494Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T14:08:08.192Z warn: Meilisearch error, search will be disabled
+2025-04-26T14:08:38.188Z error: connect ECONNREFUSED 127.0.0.1:27017
+2025-04-26T14:27:38.039Z info: [Optional] Redis not initialized.
+2025-04-26T14:27:44.935Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T14:27:45.523Z warn: Meilisearch error, search will be disabled
+2025-04-26T14:27:45.974Z info: Connected to MongoDB
+2025-04-26T14:27:45.991Z error: [indexSync] error fetch failed
+2025-04-26T14:27:46.741Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "too_small",
+      "minimum": 1,
+   ... [truncated]
+2025-04-26T14:27:46.745Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T14:27:46.746Z warn: Default value for CREDS_IV is being used.
+2025-04-26T14:27:46.747Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T14:27:46.748Z info: Please replace any default secret values.
+2025-04-26T14:27:46.749Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T14:27:46.750Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T14:27:46.751Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T14:27:46.946Z info: No changes needed for 'USER' role permissions
+2025-04-26T14:27:46.973Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T14:27:47.017Z info: Configuring social logins...
+2025-04-26T14:27:47.029Z info: Server listening on all interfaces at port 3080. Use http://localhost:3080 to access it
+2025-04-26T14:28:24.064Z error: invalid signature
+2025-04-26T14:28:33.639Z debug: [requireLocalAuth] Error: No user
+2025-04-26T14:28:34.062Z error: invalid signature
+2025-04-26T14:29:11.373Z error: invalid signature
+2025-04-26T14:29:22.943Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T14:29:23.178Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T14:29:42.094Z debug: [AskController]
+{
+  text: "hey",
+  conversationId: null,
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-pro",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T14:29:42.156Z debug: Creating GenAI client
+2025-04-26T14:29:42.158Z debug: [BaseClient] Loading history:
+{
+  conversationId: "7bfa9d7b-57ea-43c9-ad0c-6c630df5daf1",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+}
+2025-04-26T14:29:42.364Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 30712,
+  maxContextTokens: 30720,
+}
+2025-04-26T14:29:42.365Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 30712,
+  maxContextTokens: 30720,
+}
+2025-04-26T14:29:42.365Z debug: [BaseClient] tokenCountMap:
+{
+  6c2209a9-5627-4dc5-9b2f-11c9b18631a8: 5,
+}
+2025-04-26T14:29:42.366Z debug: [BaseClient]
+{
+  promptTokens: 8,
+  remainingContextTokens: 30712,
+  payloadSize: 1,
+  maxContextTokens: 30720,
+}
+2025-04-26T14:29:42.367Z debug: [BaseClient] tokenCountMap
+{
+  6c2209a9-5627-4dc5-9b2f-11c9b18631a8: 5,
+}
+2025-04-26T14:29:42.368Z debug: [BaseClient] userMessage
+{
+  messageId: "6c2209a9-5627-4dc5-9b2f-11c9b18631a8",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+  conversationId: "7bfa9d7b-57ea-43c9-ad0c-6c630df5daf1",
+  sender: "User",
+  text: "hey",
+  isCreatedByUser: true,
+  tokenCount: 5,
+}
+2025-04-26T14:29:42.462Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T14:29:42.562Z error: [GoogleClient] There was an issue generating the completion [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/... [truncated]
+2025-04-26T14:29:42.566Z error: [AskController] Error handling request { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.goog... [truncated]
+2025-04-26T14:29:42.567Z error: [handleAbortError] AI response error; aborting request: { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://genera... [truncated]
+2025-04-26T14:29:42.568Z warn: AI Response error for conversation 7bfa9d7b-57ea-43c9-ad0c-6c630df5daf1 likely caused by Google censor/filter
+2025-04-26T14:29:42.576Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T14:29:42.612Z debug: [AskController] Performing cleanup
+2025-04-26T14:29:42.612Z debug: [AskController] Cleaning up abort controller
+2025-04-26T14:29:42.613Z debug: [AskController] Cleanup completed
+2025-04-26T14:29:42.956Z debug: [streamAudio] user: 680cedb4c6f0e91e70528d6f | start stream audio
+2025-04-26T14:29:42.964Z error: [streamAudio] user: 680cedb4c6f0e91e70528d6f | Failed to stream audio: Error: Custom config not found
+2025-04-26T14:32:46.397Z info: [Optional] Redis not initialized.
+2025-04-26T14:32:53.806Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T14:32:54.379Z warn: Meilisearch error, search will be disabled
+2025-04-26T14:32:54.766Z info: Connected to MongoDB
+2025-04-26T14:32:54.786Z error: [indexSync] error fetch failed
+2025-04-26T14:32:55.620Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "invalid_type",
+      "expected": "s... [truncated]
+2025-04-26T14:32:55.624Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T14:32:55.625Z warn: Default value for CREDS_IV is being used.
+2025-04-26T14:32:55.626Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T14:32:55.627Z info: Please replace any default secret values.
+2025-04-26T14:32:55.628Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T14:32:55.629Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T14:32:55.630Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T14:32:55.685Z info: No changes needed for 'USER' role permissions
+2025-04-26T14:32:55.711Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T14:32:55.736Z info: Configuring social logins...
+2025-04-26T14:32:55.749Z info: Server listening on all interfaces at port 3080. Use http://localhost:3080 to access it
+2025-04-26T14:33:44.460Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T14:35:59.051Z info: [Optional] Redis not initialized.
+2025-04-26T14:36:05.832Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T14:36:06.397Z warn: Meilisearch error, search will be disabled
+2025-04-26T14:36:06.882Z info: Connected to MongoDB
+2025-04-26T14:36:06.901Z error: [indexSync] error fetch failed
+2025-04-26T14:36:07.623Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "invalid_type",
+      "expected": "s... [truncated]
+2025-04-26T14:36:07.629Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T14:36:07.630Z warn: Default value for CREDS_IV is being used.
+2025-04-26T14:36:07.631Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T14:36:07.632Z info: Please replace any default secret values.
+2025-04-26T14:36:07.632Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T14:36:07.633Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T14:36:07.634Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T14:36:07.702Z info: No changes needed for 'USER' role permissions
+2025-04-26T14:36:07.724Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T14:36:07.751Z info: Configuring social logins...
+2025-04-26T14:36:07.767Z info: Server listening on all interfaces at port 3080. Use http://localhost:3080 to access it
+2025-04-26T14:38:11.725Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T14:39:09.045Z info: [Optional] Redis not initialized.
+2025-04-26T14:39:18.414Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T14:39:19.105Z warn: Meilisearch error, search will be disabled
+2025-04-26T14:39:19.571Z info: Connected to MongoDB
+2025-04-26T14:39:19.595Z error: [indexSync] error fetch failed
+2025-04-26T14:39:20.366Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "unrecognized_keys",
+      "keys": [... [truncated]
+2025-04-26T14:39:20.369Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T14:39:20.370Z warn: Default value for CREDS_IV is being used.
+2025-04-26T14:39:20.370Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T14:39:20.371Z info: Please replace any default secret values.
+2025-04-26T14:39:20.371Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T14:39:20.373Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T14:39:20.374Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T14:39:20.434Z info: No changes needed for 'USER' role permissions
+2025-04-26T14:39:20.458Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T14:39:20.488Z info: Configuring social logins...
+2025-04-26T14:39:20.500Z info: Server listening on all interfaces at port 3080. Use http://localhost:3080 to access it
+2025-04-26T14:39:42.057Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T14:39:42.336Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T14:40:01.599Z debug: [AskController]
+{
+  text: "hey",
+  conversationId: null,
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-pro-vision",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T14:40:01.630Z debug: Creating GenAI client
+2025-04-26T14:40:01.633Z debug: [BaseClient] Loading history:
+{
+  conversationId: "984bfc6b-e298-418a-aa8c-7f52c6ef8f08",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+}
+2025-04-26T14:40:01.822Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 12280,
+  maxContextTokens: 12288,
+}
+2025-04-26T14:40:01.823Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 12280,
+  maxContextTokens: 12288,
+}
+2025-04-26T14:40:01.823Z debug: [BaseClient] tokenCountMap:
+{
+  677d14fb-31ba-420f-b094-6d938aaeaede: 5,
+}
+2025-04-26T14:40:01.823Z debug: [BaseClient]
+{
+  promptTokens: 8,
+  remainingContextTokens: 12280,
+  payloadSize: 1,
+  maxContextTokens: 12288,
+}
+2025-04-26T14:40:01.825Z debug: [BaseClient] tokenCountMap
+{
+  677d14fb-31ba-420f-b094-6d938aaeaede: 5,
+}
+2025-04-26T14:40:01.825Z debug: [BaseClient] userMessage
+{
+  messageId: "677d14fb-31ba-420f-b094-6d938aaeaede",
+  parentMessageId: "00000000-0000-0000-0000-000000000000",
+  conversationId: "984bfc6b-e298-418a-aa8c-7f52c6ef8f08",
+  sender: "User",
+  text: "hey",
+  isCreatedByUser: true,
+  tokenCount: 5,
+}
+2025-04-26T14:40:01.925Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T14:40:01.992Z error: [GoogleClient] There was an issue generating the completion [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/... [truncated]
+2025-04-26T14:40:01.993Z error: [AskController] Error handling request { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.goog... [truncated]
+2025-04-26T14:40:01.994Z error: [handleAbortError] AI response error; aborting request: { "type": "undefined", "info": "[GoogleGenerativeAI Error]: Error fetching from https://genera... [truncated]
+2025-04-26T14:40:01.995Z warn: AI Response error for conversation 984bfc6b-e298-418a-aa8c-7f52c6ef8f08 likely caused by Google censor/filter
+2025-04-26T14:40:01.997Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T14:40:02.044Z debug: [AskController] Performing cleanup
+2025-04-26T14:40:02.044Z debug: [AskController] Cleaning up abort controller
+2025-04-26T14:40:02.046Z debug: [AskController] Cleanup completed
+2025-04-26T14:40:02.413Z debug: [streamAudio] user: 680cedb4c6f0e91e70528d6f | start stream audio
+2025-04-26T14:40:02.418Z error: [streamAudio] user: 680cedb4c6f0e91e70528d6f | Failed to stream audio: Error: Custom config not found
+2025-04-26T14:40:14.506Z debug: [AskController]
+{
+  text: "hey",
+  conversationId: "984bfc6b-e298-418a-aa8c-7f52c6ef8f08",
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-1.5-flash",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T14:40:14.508Z debug: Creating GenAI client
+2025-04-26T14:40:14.508Z debug: [BaseClient] Loading history:
+{
+  conversationId: "984bfc6b-e298-418a-aa8c-7f52c6ef8f08",
+  parentMessageId: "a2a0f3f5-e572-477f-88b8-d74127546a66",
+}
+2025-04-26T14:40:14.539Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 991703,
+  maxContextTokens: 991808,
+}
+2025-04-26T14:40:14.540Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 991703,
+  maxContextTokens: 991808,
+}
+2025-04-26T14:40:14.540Z debug: [BaseClient] tokenCountMap:
+{
+  677d14fb-31ba-420f-b094-6d938aaeaede: 5,
+  a2a0f3f5-e572-477f-88b8-d74127546a66: 92,
+  bf215acc-3a08-47b4-91bb-e42b26e97b96: 5,
+}
+2025-04-26T14:40:14.540Z debug: [BaseClient]
+{
+  promptTokens: 105,
+  remainingContextTokens: 991703,
+  payloadSize: 3,
+  maxContextTokens: 991808,
+}
+2025-04-26T14:40:14.540Z debug: [BaseClient] tokenCountMap
+{
+  677d14fb-31ba-420f-b094-6d938aaeaede: 5,
+  a2a0f3f5-e572-477f-88b8-d74127546a66: 92,
+  bf215acc-3a08-47b4-91bb-e42b26e97b96: 5,
+}
+2025-04-26T14:40:14.541Z debug: [BaseClient] userMessage
+{
+  messageId: "bf215acc-3a08-47b4-91bb-e42b26e97b96",
+  parentMessageId: "a2a0f3f5-e572-477f-88b8-d74127546a66",
+  conversationId: "984bfc6b-e298-418a-aa8c-7f52c6ef8f08",
+  sender: "User",
+  text: "hey",
+  isCreatedByUser: true,
+  tokenCount: 5,
+}
+2025-04-26T14:40:14.541Z debug: [BaseClient] Skipping 677d14fb-31ba-420f-b094-6d938aaeaede: already had a token count.
+2025-04-26T14:40:14.541Z debug: [BaseClient] Skipping a2a0f3f5-e572-477f-88b8-d74127546a66: already had a token count.
+2025-04-26T14:40:14.603Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T14:40:15.079Z debug: [spendTokens] conversationId: 984bfc6b-e298-418a-aa8c-7f52c6ef8f08 | Context: message | Token usage:
+{
+  promptTokens: 105,
+  completionTokens: 11,
+}
+2025-04-26T14:40:15.150Z debug: [spendTokens] No transactions incurred against balance
+2025-04-26T14:40:15.183Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T14:40:15.248Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T14:40:15.249Z debug: [AskController] Request closed
+2025-04-26T14:40:15.281Z debug: [AskController] Performing cleanup
+2025-04-26T14:40:15.281Z debug: [AskController] Cleaning up abort controller
+2025-04-26T14:40:15.281Z debug: [AskController] Cleanup completed
+2025-04-26T14:40:15.477Z debug: [streamAudio] user: 680cedb4c6f0e91e70528d6f | start stream audio
+2025-04-26T14:40:15.480Z error: [streamAudio] user: 680cedb4c6f0e91e70528d6f | Failed to stream audio: Error: Custom config not found
+2025-04-26T14:41:01.713Z debug: [AskController]
+{
+  text: "testing testing 1212 check check check check check",
+  conversationId: "984bfc6b-e298-418a-aa8c-7f52c6ef8f08",
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-1.5-flash",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T14:41:01.714Z debug: Creating GenAI client
+2025-04-26T14:41:01.715Z debug: [BaseClient] Loading history:
+{
+  conversationId: "984bfc6b-e298-418a-aa8c-7f52c6ef8f08",
+  parentMessageId: "0ac4a11c-0a5e-40cf-bc3f-e214115667b6",
+}
+2025-04-26T14:41:01.743Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 991680,
+  maxContextTokens: 991808,
+}
+2025-04-26T14:41:01.743Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 991680,
+  maxContextTokens: 991808,
+}
+2025-04-26T14:41:01.743Z debug: [BaseClient] tokenCountMap:
+{
+  677d14fb-31ba-420f-b094-6d938aaeaede: 5,
+  a2a0f3f5-e572-477f-88b8-d74127546a66: 92,
+  bf215acc-3a08-47b4-91bb-e42b26e97b96: 3,
+  0ac4a11c-0a5e-40cf-bc3f-e214115667b6: 11,
+  81bc17ce-eb3d-4267-9a61-6e51ab5cfafb: 14,
+}
+2025-04-26T14:41:01.743Z debug: [BaseClient]
+{
+  promptTokens: 128,
+  remainingContextTokens: 991680,
+  payloadSize: 5,
+  maxContextTokens: 991808,
+}
+2025-04-26T14:41:01.744Z debug: [BaseClient] tokenCountMap
+{
+  677d14fb-31ba-420f-b094-6d938aaeaede: 5,
+  a2a0f3f5-e572-477f-88b8-d74127546a66: 92,
+  bf215acc-3a08-47b4-91bb-e42b26e97b96: 3,
+  0ac4a11c-0a5e-40cf-bc3f-e214115667b6: 11,
+  81bc17ce-eb3d-4267-9a61-6e51ab5cfafb: 14,
+}
+2025-04-26T14:41:01.744Z debug: [BaseClient] userMessage
+{
+  messageId: "81bc17ce-eb3d-4267-9a61-6e51ab5cfafb",
+  parentMessageId: "0ac4a11c-0a5e-40cf-bc3f-e214115667b6",
+  conversationId: "984bfc6b-e298-418a-aa8c-7f52c6ef8f08",
+  sender: "User",
+  text: "testing testing 1212 check check check check check",
+  isCreatedByUser: true,
+  tokenCount: 14,
+}
+2025-04-26T14:41:01.744Z debug: [BaseClient] Skipping 677d14fb-31ba-420f-b094-6d938aaeaede: already had a token count.
+2025-04-26T14:41:01.744Z debug: [BaseClient] Skipping a2a0f3f5-e572-477f-88b8-d74127546a66: already had a token count.
+2025-04-26T14:41:01.744Z debug: [BaseClient] Skipping bf215acc-3a08-47b4-91bb-e42b26e97b96: already had a token count.
+2025-04-26T14:41:01.745Z debug: [BaseClient] Skipping 0ac4a11c-0a5e-40cf-bc3f-e214115667b6: already had a token count.
+2025-04-26T14:41:01.807Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T14:41:02.501Z debug: [spendTokens] conversationId: 984bfc6b-e298-418a-aa8c-7f52c6ef8f08 | Context: message | Token usage:
+{
+  promptTokens: 128,
+  completionTokens: 26,
+}
+2025-04-26T14:41:02.563Z debug: [spendTokens] No transactions incurred against balance
+2025-04-26T14:41:02.594Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T14:41:02.658Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T14:41:02.659Z debug: [AskController] Request closed
+2025-04-26T14:41:02.706Z debug: [AskController] Performing cleanup
+2025-04-26T14:41:02.706Z debug: [AskController] Cleaning up abort controller
+2025-04-26T14:41:02.706Z debug: [AskController] Cleanup completed
+2025-04-26T14:41:02.898Z debug: [streamAudio] user: 680cedb4c6f0e91e70528d6f | start stream audio
+2025-04-26T14:41:02.900Z error: [streamAudio] user: 680cedb4c6f0e91e70528d6f | Failed to stream audio: Error: Custom config not found
+2025-04-26T14:41:17.677Z debug: [AskController]
+{
+  text: "check one two testing test",
+  conversationId: "984bfc6b-e298-418a-aa8c-7f52c6ef8f08",
+  endpoint: "google",
+  resendFiles: true,
+    modelOptions.model: "gemini-1.5-pro",
+  artifactsPrompt: null,
+  modelsConfig: "exists",
+}
+2025-04-26T14:41:17.679Z debug: Creating GenAI client
+2025-04-26T14:41:17.680Z debug: [BaseClient] Loading history:
+{
+  conversationId: "984bfc6b-e298-418a-aa8c-7f52c6ef8f08",
+  parentMessageId: "f56ce4b9-779a-4a27-8f02-d7a2455e2ce0",
+}
+2025-04-26T14:41:17.711Z debug: [BaseClient] Context Count (1/2)
+{
+  remainingContextTokens: 991648,
+  maxContextTokens: 991808,
+}
+2025-04-26T14:41:17.711Z debug: [BaseClient] Context Count (2/2)
+{
+  remainingContextTokens: 991648,
+  maxContextTokens: 991808,
+}
+2025-04-26T14:41:17.711Z debug: [BaseClient] tokenCountMap:
+{
+  677d14fb-31ba-420f-b094-6d938aaeaede: 5,
+  a2a0f3f5-e572-477f-88b8-d74127546a66: 92,
+  bf215acc-3a08-47b4-91bb-e42b26e97b96: 3,
+  0ac4a11c-0a5e-40cf-bc3f-e214115667b6: 11,
+  81bc17ce-eb3d-4267-9a61-6e51ab5cfafb: 11,
+  f56ce4b9-779a-4a27-8f02-d7a2455e2ce0: 26,
+  67d1343b-f3a5-4c12-8cf4-82ad5ad42a18: 9,
+}
+2025-04-26T14:41:17.712Z debug: [BaseClient]
+{
+  promptTokens: 160,
+  remainingContextTokens: 991648,
+  payloadSize: 7,
+  maxContextTokens: 991808,
+}
+2025-04-26T14:41:17.712Z debug: [BaseClient] tokenCountMap
+{
+  677d14fb-31ba-420f-b094-6d938aaeaede: 5,
+  a2a0f3f5-e572-477f-88b8-d74127546a66: 92,
+  bf215acc-3a08-47b4-91bb-e42b26e97b96: 3,
+  0ac4a11c-0a5e-40cf-bc3f-e214115667b6: 11,
+  81bc17ce-eb3d-4267-9a61-6e51ab5cfafb: 11,
+  f56ce4b9-779a-4a27-8f02-d7a2455e2ce0: 26,
+  67d1343b-f3a5-4c12-8cf4-82ad5ad42a18: 9,
+}
+2025-04-26T14:41:17.712Z debug: [BaseClient] userMessage
+{
+  messageId: "67d1343b-f3a5-4c12-8cf4-82ad5ad42a18",
+  parentMessageId: "f56ce4b9-779a-4a27-8f02-d7a2455e2ce0",
+  conversationId: "984bfc6b-e298-418a-aa8c-7f52c6ef8f08",
+  sender: "User",
+  text: "check one two testing test",
+  isCreatedByUser: true,
+  tokenCount: 9,
+}
+2025-04-26T14:41:17.712Z debug: [BaseClient] Skipping 677d14fb-31ba-420f-b094-6d938aaeaede: already had a token count.
+2025-04-26T14:41:17.712Z debug: [BaseClient] Skipping a2a0f3f5-e572-477f-88b8-d74127546a66: already had a token count.
+2025-04-26T14:41:17.713Z debug: [BaseClient] Skipping bf215acc-3a08-47b4-91bb-e42b26e97b96: already had a token count.
+2025-04-26T14:41:17.713Z debug: [BaseClient] Skipping 0ac4a11c-0a5e-40cf-bc3f-e214115667b6: already had a token count.
+2025-04-26T14:41:17.713Z debug: [BaseClient] Skipping 81bc17ce-eb3d-4267-9a61-6e51ab5cfafb: already had a token count.
+2025-04-26T14:41:17.713Z debug: [BaseClient] Skipping f56ce4b9-779a-4a27-8f02-d7a2455e2ce0: already had a token count.
+2025-04-26T14:41:17.763Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T14:41:19.118Z debug: [spendTokens] conversationId: 984bfc6b-e298-418a-aa8c-7f52c6ef8f08 | Context: message | Token usage:
+{
+  promptTokens: 160,
+  completionTokens: 23,
+}
+2025-04-26T14:41:19.173Z debug: [spendTokens] No transactions incurred against balance
+2025-04-26T14:41:19.201Z debug: [saveConvo] api/app/clients/BaseClient.js - saveMessageToDatabase #saveConvo
+2025-04-26T14:41:19.254Z warn: [GoogleClient] Request was aborted This operation was aborted
+2025-04-26T14:41:19.254Z debug: [AskController] Request closed
+2025-04-26T14:41:19.284Z debug: [AskController] Performing cleanup
+2025-04-26T14:41:19.284Z debug: [AskController] Cleaning up abort controller
+2025-04-26T14:41:19.285Z debug: [AskController] Cleanup completed
+2025-04-26T14:41:19.490Z debug: [streamAudio] user: 680cedb4c6f0e91e70528d6f | start stream audio
+2025-04-26T14:41:19.492Z error: [streamAudio] user: 680cedb4c6f0e91e70528d6f | Failed to stream audio: Error: Custom config not found
+2025-04-26T14:41:35.228Z error: Error in moderateText: Invalid URL
+2025-04-26T14:41:35.704Z debug: [streamAudio] user: 680cedb4c6f0e91e70528d6f | start stream audio
+2025-04-26T14:41:35.706Z error: [streamAudio] user: 680cedb4c6f0e91e70528d6f | Failed to stream audio: Error: Custom config not found
+2025-04-26T14:41:45.834Z debug: [FinalizationRegistry] Cleaning up client for user 680cedb4c6f0e91e70528d6f
+2025-04-26T14:41:45.834Z debug: [FinalizationRegistry] Cleaning up client for user 680cedb4c6f0e91e70528d6f
+2025-04-26T14:41:45.834Z debug: [FinalizationRegistry] Cleaning up client for user 680cedb4c6f0e91e70528d6f
+2025-04-26T14:41:45.834Z debug: [FinalizationRegistry] Cleaning up client for user 680cedb4c6f0e91e70528d6f
+2025-04-26T14:55:47.225Z info: [Optional] Redis not initialized.
+2025-04-26T14:55:54.274Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T14:55:54.831Z warn: Meilisearch error, search will be disabled
+2025-04-26T14:55:55.273Z info: Connected to MongoDB
+2025-04-26T14:55:55.290Z error: [indexSync] error fetch failed
+2025-04-26T14:55:55.978Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "unrecognized_keys",
+      "keys": [... [truncated]
+2025-04-26T14:55:55.983Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T14:55:55.984Z warn: Default value for CREDS_IV is being used.
+2025-04-26T14:55:55.984Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T14:55:55.985Z info: Please replace any default secret values.
+2025-04-26T14:55:55.986Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T14:55:55.986Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T14:55:55.987Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T14:55:56.040Z info: No changes needed for 'USER' role permissions
+2025-04-26T14:55:56.066Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T14:55:56.092Z info: Configuring social logins...
+2025-04-26T14:55:56.105Z info: Server listening on all interfaces at port 3080. Use http://localhost:3080 to access it
+2025-04-26T14:56:04.734Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T14:59:10.766Z info: [Optional] Redis not initialized.
+2025-04-26T14:59:19.826Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T14:59:20.499Z warn: Meilisearch error, search will be disabled
+2025-04-26T14:59:20.954Z info: Connected to MongoDB
+2025-04-26T14:59:20.989Z error: [indexSync] error fetch failed
+2025-04-26T14:59:21.789Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "unrecognized_keys",
+      "keys": [... [truncated]
+2025-04-26T14:59:21.795Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T14:59:21.800Z warn: Default value for CREDS_IV is being used.
+2025-04-26T14:59:21.802Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T14:59:21.804Z info: Please replace any default secret values.
+2025-04-26T14:59:21.806Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T14:59:21.809Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T14:59:21.812Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T14:59:21.917Z info: No changes needed for 'USER' role permissions
+2025-04-26T14:59:22.015Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T14:59:22.093Z info: Configuring social logins...
+2025-04-26T14:59:22.143Z info: Server listening on all interfaces at port 3080. Use http://localhost:3080 to access it
+2025-04-26T14:59:30.814Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T14:59:31.057Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T15:00:49.629Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T15:01:47.429Z info: [Optional] Redis not initialized.
+2025-04-26T15:01:55.570Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T15:01:56.141Z warn: Meilisearch error, search will be disabled
+2025-04-26T15:01:56.574Z info: Connected to MongoDB
+2025-04-26T15:01:56.591Z error: [indexSync] error fetch failed
+2025-04-26T15:01:57.342Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "unrecognized_keys",
+      "keys": [... [truncated]
+2025-04-26T15:01:57.346Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T15:01:57.347Z warn: Default value for CREDS_IV is being used.
+2025-04-26T15:01:57.348Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T15:01:57.349Z info: Please replace any default secret values.
+2025-04-26T15:01:57.350Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T15:01:57.352Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T15:01:57.353Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T15:01:57.421Z info: No changes needed for 'USER' role permissions
+2025-04-26T15:01:57.446Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T15:01:57.472Z info: Configuring social logins...
+2025-04-26T15:01:57.490Z info: Server listening on all interfaces at port 3080. Use http://localhost:3080 to access it
+2025-04-26T15:03:05.610Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T15:03:05.881Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T15:08:09.396Z info: [Optional] Redis not initialized.
+2025-04-26T15:08:17.896Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T15:08:18.634Z warn: Meilisearch error, search will be disabled
+2025-04-26T15:08:19.106Z info: Connected to MongoDB
+2025-04-26T15:08:19.135Z error: [indexSync] error fetch failed
+2025-04-26T15:08:20.004Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "unrecognized_keys",
+      "keys": [... [truncated]
+2025-04-26T15:08:20.007Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T15:08:20.009Z warn: Default value for CREDS_IV is being used.
+2025-04-26T15:08:20.010Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T15:08:20.011Z info: Please replace any default secret values.
+2025-04-26T15:08:20.012Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T15:08:20.013Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T15:08:20.014Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T15:08:20.082Z info: No changes needed for 'USER' role permissions
+2025-04-26T15:08:20.109Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T15:08:20.142Z info: Configuring social logins...
+2025-04-26T15:08:20.155Z info: Server listening on all interfaces at port 3080. Use http://localhost:3080 to access it
+2025-04-26T15:10:37.950Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T15:10:51.612Z info: [Optional] Redis not initialized.
+2025-04-26T15:10:59.245Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T15:10:59.856Z warn: Meilisearch error, search will be disabled
+2025-04-26T15:11:00.297Z info: Connected to MongoDB
+2025-04-26T15:11:00.323Z error: [indexSync] error fetch failed
+2025-04-26T15:11:01.016Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "unrecognized_keys",
+      "keys": [... [truncated]
+2025-04-26T15:11:01.019Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T15:11:01.019Z warn: Default value for CREDS_IV is being used.
+2025-04-26T15:11:01.020Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T15:11:01.021Z info: Please replace any default secret values.
+2025-04-26T15:11:01.021Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T15:11:01.022Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T15:11:01.023Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T15:11:01.088Z info: No changes needed for 'USER' role permissions
+2025-04-26T15:11:01.280Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T15:11:01.305Z info: Configuring social logins...
+2025-04-26T15:11:01.316Z info: Server listening on all interfaces at port 3080. Use http://localhost:3080 to access it
+2025-04-26T15:12:42.613Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T15:13:38.915Z info: [Optional] Redis not initialized.
+2025-04-26T15:13:51.439Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T15:13:52.061Z warn: Meilisearch error, search will be disabled
+2025-04-26T15:13:52.489Z info: Connected to MongoDB
+2025-04-26T15:13:52.510Z error: [indexSync] error fetch failed
+2025-04-26T15:13:53.288Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "unrecognized_keys",
+      "keys": [... [truncated]
+2025-04-26T15:13:53.291Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T15:13:53.292Z warn: Default value for CREDS_IV is being used.
+2025-04-26T15:13:53.293Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T15:13:53.293Z info: Please replace any default secret values.
+2025-04-26T15:13:53.294Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T15:13:53.295Z warn: The `GOOGLE_API_KEY` environment variable is deprecated. Please use the `GOOGLE_SEARCH_API_KEY` environment variable for the Google Search Tool instea... [truncated]
+2025-04-26T15:13:53.296Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T15:13:53.352Z info: No changes needed for 'USER' role permissions
+2025-04-26T15:13:53.377Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T15:13:53.402Z info: Configuring social logins...
+2025-04-26T15:13:53.414Z info: Server listening on all interfaces at port 3080. Use http://localhost:3080 to access it
+2025-04-26T16:04:14.922Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T16:04:28.973Z info: [Optional] Redis not initialized.
+2025-04-26T16:04:37.586Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T16:04:38.626Z info: Connected to MongoDB
+2025-04-26T16:04:39.344Z error: Invalid custom config file at C:\Podplay-Agent\LibreChat-main\librechat.yaml:
+{
+  "issues": [
+    {
+      "code": "unrecognized_keys",
+      "keys": [... [truncated]
+2025-04-26T16:04:39.347Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T16:04:39.348Z warn: Default value for CREDS_IV is being used.
+2025-04-26T16:04:39.348Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T16:04:39.349Z info: Please replace any default secret values.
+2025-04-26T16:04:39.349Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T16:04:39.351Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T16:04:39.408Z info: No changes needed for 'USER' role permissions
+2025-04-26T16:04:39.433Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T16:04:39.462Z info: Configuring social logins...
+2025-04-26T16:04:39.477Z info: Server listening on all interfaces at port 3080. Use http://localhost:3080 to access it
+2025-04-26T16:07:09.486Z debug: [validateJson] files
+["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
+2025-04-26T16:07:09.745Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
+2025-04-26T16:10:35.531Z debug: [indexSync] Clearing sync timeouts before exiting...
