@@ -8,7 +8,6 @@ import {
   createContext,
   useRef,
 } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { useRecoilState } from 'recoil';
 import { setTokenHeader, SystemRoles } from 'podplay-build-data-provider';
 import type * as t from 'podplay-build-data-provider';
@@ -22,6 +21,7 @@ import {
 import { TAuthConfig, TUserContext, TAuthContext, TResError } from '~/common';
 import useTimeout from './useTimeout';
 import store from '~/store';
+import { router } from '../routes';
 
 const AuthContext = createContext<TAuthContext | undefined>(undefined);
 
@@ -45,8 +45,6 @@ const AuthContextProvider = ({
     enabled: !!(isAuthenticated && user?.role === SystemRoles.ADMIN),
   });
 
-  const navigate = useNavigate();
-
   const setUserContext = useCallback(
     (userContext: TUserContext) => {
       const { token, isAuthenticated, user, redirect } = userContext;
@@ -65,10 +63,10 @@ const AuthContextProvider = ({
       if (finalRedirect.startsWith('http://') || finalRedirect.startsWith('https://')) {
         window.location.href = finalRedirect;
       } else {
-        navigate(finalRedirect, { replace: true });
+        router.navigate(finalRedirect, { replace: true });
       }
     },
-    [navigate, setUser],
+    [setUser],
   );
   const doSetError = useTimeout({ callback: (error) => setError(error as string | undefined) });
 
@@ -77,7 +75,7 @@ const AuthContextProvider = ({
       const { user, token, twoFAPending, tempToken } = data;
       if (twoFAPending) {
         // Redirect to the two-factor authentication route.
-        navigate(`/login/2fa?tempToken=${tempToken}`, { replace: true });
+        router.navigate(`/login/2fa?tempToken=${tempToken}`, { replace: true });
         return;
       }
       setError(undefined);
@@ -86,7 +84,7 @@ const AuthContextProvider = ({
     onError: (error: TResError | unknown) => {
       const resError = error as TResError;
       doSetError(resError.message);
-      navigate('/login', { replace: true });
+      router.navigate('/login', { replace: true });
     },
   });
   const logoutUser = useLogoutUserMutation({
@@ -141,7 +139,7 @@ const AuthContextProvider = ({
           if (authConfig?.test === true) {
             return;
           }
-          navigate('/login');
+          router.navigate('/login');
         }
       },
       onError: (error) => {
@@ -149,7 +147,7 @@ const AuthContextProvider = ({
         if (authConfig?.test === true) {
           return;
         }
-        navigate('/login');
+        router.navigate('/login');
       },
     });
   }, []);
@@ -159,7 +157,7 @@ const AuthContextProvider = ({
       setUser(userQuery.data);
     } else if (userQuery.isError) {
       doSetError((userQuery.error as Error).message);
-      navigate('/login', { replace: true });
+      router.navigate('/login', { replace: true });
     }
     if (error != null && error && isAuthenticated) {
       doSetError(undefined);
@@ -175,7 +173,6 @@ const AuthContextProvider = ({
     userQuery.error,
     error,
     setUser,
-    navigate,
     silentRefresh,
     setUserContext,
   ]);

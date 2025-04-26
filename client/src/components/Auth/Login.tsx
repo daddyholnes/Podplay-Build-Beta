@@ -1,6 +1,7 @@
-import { useOutletContext, useSearchParams } from 'react-router-dom';
+import { useSearchParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { useAuthContext } from '~/hooks/AuthContext';
+import { useGetStartupConfig } from '~/data-provider';
 import type { TLoginLayoutContext } from '~/common';
 import { ErrorMessage } from '~/components/Auth/ErrorMessage';
 import { getLoginError } from '~/utils';
@@ -12,7 +13,7 @@ import { OpenIDIcon } from '~/components';
 function Login() {
   const localize = useLocalize();
   const { error, setError, login } = useAuthContext();
-  const { startupConfig } = useOutletContext<TLoginLayoutContext>();
+  const { data: startupConfig } = useGetStartupConfig();
 
   const [searchParams, setSearchParams] = useSearchParams();
   // Determine if auto-redirect should be disabled based on the URL parameter
