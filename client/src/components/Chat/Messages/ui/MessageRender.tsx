@@ -1,6 +1,6 @@
 import { useRecoilValue } from 'recoil';
 import { useCallback, useMemo, memo } from 'react';
-import type { TMessage } from 'librechat-data-provider';
+import type { TMessage } from 'podplay-build-data-provider';
 import type { TMessageProps, TMessageIcon } from '~/common';
 import MessageContent from '~/components/Chat/Messages/Content/MessageContent';
 import PlaceholderRow from '~/components/Chat/Messages/ui/PlaceholderRow';

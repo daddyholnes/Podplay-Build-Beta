@@ -1,8 +1,8 @@
 import { useForm } from 'react-hook-form';
 import React, { useState } from 'react';
 import { useNavigate, useOutletContext, useLocation } from 'react-router-dom';
-import { useRegisterUserMutation } from 'librechat-data-provider/react-query';
-import type { TRegisterUser, TError } from 'librechat-data-provider';
+import { useRegisterUserMutation } from 'podplay-build-data-provider/react-query';
+import type { TRegisterUser, TError } from 'podplay-build-data-provider';
 import type { TLoginLayoutContext } from '~/common';
 import { ErrorMessage } from './ErrorMessage';
 import { Spinner } from '~/components/svg';

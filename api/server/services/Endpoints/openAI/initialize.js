@@ -3,7 +3,7 @@ const {
   EModelEndpoint,
   resolveHeaders,
   mapModelToAzureConfig,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { getUserKeyValues, checkUserKeyExpiry } = require('~/server/services/UserService');
 const { getLLMConfig } = require('~/server/services/Endpoints/openAI/llm');
 const { createHandleLLMNewToken } = require('~/app/clients/generators');

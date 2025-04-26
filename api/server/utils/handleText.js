@@ -8,7 +8,7 @@ const {
   isAssistantsEndpoint,
   defaultRetrievalModels,
   defaultAssistantsVersion,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { Providers } = require('@librechat/agents');
 const partialRight = require('lodash/partialRight');
 const { sendMessage } = require('./streamResponse');

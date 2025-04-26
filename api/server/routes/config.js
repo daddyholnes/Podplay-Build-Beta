@@ -1,5 +1,5 @@
 const express = require('express');
-const { CacheKeys, defaultSocialLogins, Constants } = require('librechat-data-provider');
+const { CacheKeys, defaultSocialLogins, Constants } = require('podplay-build-data-provider');
 const { getLdapConfig } = require('~/server/services/Config/ldap');
 const { getProjectByName } = require('~/models/Project');
 const { isEnabled } = require('~/server/utils');

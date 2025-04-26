@@ -1,4 +1,4 @@
-const { anthropicSettings } = require('librechat-data-provider');
+const { anthropicSettings } = require('podplay-build-data-provider');
 const { getLLMConfig } = require('~/server/services/Endpoints/anthropic/llm');
 
 jest.mock('https-proxy-agent', () => ({

@@ -1,9 +1,9 @@
 const mongoose = require('mongoose');
 const { agentSchema } = require('@librechat/data-schemas');
-const { SystemRoles, Tools } = require('librechat-data-provider');
+const { SystemRoles, Tools } = require('podplay-build-data-provider');
 const { GLOBAL_PROJECT_NAME, EPHEMERAL_AGENT_ID, mcp_delimiter } =
-  require('librechat-data-provider').Constants;
-const { CONFIG_STORE, STARTUP_CONFIG } = require('librechat-data-provider').CacheKeys;
+  require('podplay-build-data-provider').Constants;
+const { CONFIG_STORE, STARTUP_CONFIG } = require('podplay-build-data-provider').CacheKeys;
 const {
   getProjectByName,
   addAgentIdsToProject,

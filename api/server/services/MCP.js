@@ -6,7 +6,7 @@ const {
   ContentTypes,
   isAssistantsEndpoint,
   convertJsonSchemaToZod,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { logger, getMCPManager } = require('~/config');
 
 /**

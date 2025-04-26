@@ -5,7 +5,7 @@ const {
   ContentTypes,
   AnnotationTypes,
   defaultOrderQuery,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { retrieveAndProcessFile } = require('~/server/services/Files/process');
 const { recordMessage, getMessages } = require('~/models/Message');
 const { countTokens, escapeRegExp } = require('~/server/utils');

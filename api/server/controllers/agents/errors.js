@@ -1,7 +1,7 @@
 // errorHandler.js
 const { logger } = require('~/config');
 const getLogStores = require('~/cache/getLogStores');
-const { CacheKeys, ViolationTypes } = require('librechat-data-provider');
+const { CacheKeys, ViolationTypes } = require('podplay-build-data-provider');
 const { recordUsage } = require('~/server/services/Threads');
 const { getConvo } = require('~/models/Conversation');
 const { sendResponse } = require('~/server/utils');

@@ -1,5 +1,5 @@
 const express = require('express');
-const { getResponseSender, Constants } = require('librechat-data-provider');
+const { getResponseSender, Constants } = require('podplay-build-data-provider');
 const { initializeClient } = require('~/server/services/Endpoints/gptPlugins');
 const { sendMessage, createOnProgress } = require('~/server/utils');
 const { addTitle } = require('~/server/services/Endpoints/openAI');

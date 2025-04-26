@@ -1,6 +1,6 @@
 import { useMemo, useState, useCallback } from 'react';
-import { OptionTypes } from 'librechat-data-provider';
-import type { DynamicSettingProps } from 'librechat-data-provider';
+import { OptionTypes } from 'podplay-build-data-provider';
+import type { DynamicSettingProps } from 'podplay-build-data-provider';
 import { Label, HoverCard, HoverCardTrigger } from '~/components/ui';
 import ControlCombobox from '~/components/ui/ControlCombobox';
 import { TranslationKeys, useLocalize, useParameterEffects } from '~/hooks';

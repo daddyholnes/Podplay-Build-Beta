@@ -2,7 +2,7 @@
 const fs = require('fs');
 const path = require('path');
 const FormData = require('form-data');
-const { FileSources, envVarRegex, extractEnvVariable } = require('librechat-data-provider');
+const { FileSources, envVarRegex, extractEnvVariable } = require('podplay-build-data-provider');
 const { loadAuthValues } = require('~/server/services/Tools/credentials');
 const { logger, createAxiosInstance } = require('~/config');
 const { logAxiosError } = require('~/utils/axios');

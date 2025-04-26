@@ -1,5 +1,5 @@
 import { Schema, Document } from 'mongoose';
-import { PermissionTypes, Permissions } from 'librechat-data-provider';
+import { PermissionTypes, Permissions } from 'podplay-build-data-provider';
 
 export interface IRole extends Document {
   name: string;

@@ -1,5 +1,5 @@
 const express = require('express');
-const { getResponseSender } = require('librechat-data-provider');
+const { getResponseSender } = require('podplay-build-data-provider');
 const {
   setHeaders,
   moderateText,

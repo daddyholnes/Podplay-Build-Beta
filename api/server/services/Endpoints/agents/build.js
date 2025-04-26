@@ -1,4 +1,4 @@
-const { isAgentsEndpoint, Constants } = require('librechat-data-provider');
+const { isAgentsEndpoint, Constants } = require('podplay-build-data-provider');
 const { loadAgent } = require('~/models/Agent');
 const { logger } = require('~/config');
 

@@ -16,7 +16,7 @@ const {
   ErrorTypes,
   Constants,
   AuthKeys,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { getSafetySettings } = require('~/server/services/Endpoints/google/llm');
 const { encodeAndFormat } = require('~/server/services/Files/images');
 const Tokenizer = require('~/server/services/Tokenizer');

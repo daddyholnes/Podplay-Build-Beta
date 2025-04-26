@@ -1,6 +1,6 @@
 const fs = require('fs');
 const LdapStrategy = require('passport-ldapauth');
-const { SystemRoles } = require('librechat-data-provider');
+const { SystemRoles } = require('podplay-build-data-provider');
 const { findUser, createUser, updateUser } = require('~/models/userMethods');
 const { countUsers } = require('~/models/userMethods');
 const { isEnabled } = require('~/server/utils');

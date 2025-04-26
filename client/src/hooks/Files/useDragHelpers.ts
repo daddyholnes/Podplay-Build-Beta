@@ -10,8 +10,8 @@ import {
   isAgentsEndpoint,
   isEphemeralAgent,
   AgentCapabilities,
-} from 'librechat-data-provider';
-import type * as t from 'librechat-data-provider';
+} from 'podplay-build-data-provider';
+import type * as t from 'podplay-build-data-provider';
 import type { DropTargetMonitor } from 'react-dnd';
 import useFileHandling from './useFileHandling';
 import store, { ephemeralAgentByConvoId } from '~/store';

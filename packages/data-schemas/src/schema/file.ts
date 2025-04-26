@@ -1,5 +1,5 @@
 import mongoose, { Schema, Document, Types } from 'mongoose';
-import { FileSources } from 'librechat-data-provider';
+import { FileSources } from 'podplay-build-data-provider';
 
 // @ts-ignore
 export interface IMongoFile extends Document {

@@ -5,7 +5,7 @@
  * allowing for bidirectional communication with support for multimodal content.
  */
 
-const { constants } = require('librechat-data-provider');
+const { constants } = require('podplay-build-data-provider');
 const { sendEvent } = require('~/config');
 const { logger } = require('~/config');
 

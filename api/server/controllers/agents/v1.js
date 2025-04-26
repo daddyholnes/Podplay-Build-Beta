@@ -8,7 +8,7 @@ const {
   SystemRoles,
   EToolResources,
   actionDelimiter,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const {
   getAgent,
   createAgent,

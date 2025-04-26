@@ -8,7 +8,7 @@ const {
   FileSources,
   imageExtRegex,
   EToolResources,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { getStrategyFunctions } = require('~/server/services/Files/strategies');
 const { convertImage } = require('~/server/services/Files/images/convert');
 const { createFile, getFiles, updateFile } = require('~/models/File');

@@ -1,6 +1,6 @@
 import { useCallback, useRef } from 'react';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
-import { QueryKeys, Time, dataService } from 'librechat-data-provider';
+import { QueryKeys, Time, dataService } from 'podplay-build-data-provider';
 import { logger } from '~/utils';
 
 export const useHealthCheck = () => {

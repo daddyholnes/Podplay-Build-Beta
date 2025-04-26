@@ -1,6 +1,6 @@
 import * as Ariakit from '@ariakit/react';
 import React, { useRef, useState, useMemo } from 'react';
-import { EToolResources, EModelEndpoint } from 'librechat-data-provider';
+import { EToolResources, EModelEndpoint } from 'podplay-build-data-provider';
 import { FileSearch, ImageUpIcon, TerminalSquareIcon, FileType2Icon } from 'lucide-react';
 import { FileUpload, TooltipAnchor, DropdownPopup, AttachmentIcon } from '~/components';
 import { useGetEndpointsQuery } from '~/data-provider';

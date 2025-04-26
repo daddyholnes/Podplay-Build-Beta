@@ -9,7 +9,7 @@ const {
   resolveHeaders,
   CohereConstants,
   mapModelToAzureConfig,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { extractBaseURL, constructAzureURL, genAzureChatCompletion } = require('~/utils');
 const { createContextHandlers } = require('./prompts');
 const { createCoherePayload } = require('./llm');

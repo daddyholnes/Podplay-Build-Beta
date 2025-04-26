@@ -1,5 +1,5 @@
 import { memo } from 'react';
-import { EModelEndpoint, KnownEndpoints } from 'librechat-data-provider';
+import { EModelEndpoint, KnownEndpoints } from 'podplay-build-data-provider';
 import { CustomMinimalIcon } from '~/components/svg';
 import { IconContext } from '~/common';
 import { cn } from '~/utils';

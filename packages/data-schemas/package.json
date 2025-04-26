@@ -1,7 +1,7 @@
 {
-  "name": "@librechat/data-schemas",
+  "name": "@podplay-build/data-schemas",
   "version": "0.0.6",
-  "description": "Mongoose schemas and models for LibreChat",
+  "description": "Mongoose schemas and models for Podplay-Build",
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.es.js",
@@ -28,14 +28,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danny-avila/LibreChat.git"
+    "url": "git+https://github.com/daddyholnes/Podplay-Build-Beta.git"
   },
   "author": "",
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danny-avila/LibreChat/issues"
+    "url": "https://github.com/daddyholnes/Podplay-Build-Beta/issues"
   },
-  "homepage": "https://librechat.ai",
+  "homepage": "https://podplay-build.io",
   "devDependencies": {
     "@rollup/plugin-alias": "^5.1.0",
     "@rollup/plugin-commonjs": "^25.0.2",
@@ -72,6 +72,7 @@
     "mongoose",
     "schema",
     "typescript",
-    "librechat"
+    "podplay-build",
+    "podcast"
   ]
 }

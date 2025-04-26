@@ -1,5 +1,5 @@
 import { useCallback, useRef } from 'react';
-import { useGetModelsQuery } from 'librechat-data-provider/react-query';
+import { useGetModelsQuery } from 'podplay-build-data-provider/react-query';
 import { useNavigate } from 'react-router-dom';
 import {
   Constants,
@@ -8,7 +8,7 @@ import {
   isParamEndpoint,
   LocalStorageKeys,
   isAssistantsEndpoint,
-} from 'librechat-data-provider';
+} from 'podplay-build-data-provider';
 import { useRecoilState, useRecoilValue, useSetRecoilState, useRecoilCallback } from 'recoil';
 import type {
   TPreset,
@@ -16,7 +16,7 @@ import type {
   TModelsConfig,
   TConversation,
   TEndpointsConfig,
-} from 'librechat-data-provider';
+} from 'podplay-build-data-provider';
 import type { AssistantListItem } from '~/common';
 import {
   getEndpointField,

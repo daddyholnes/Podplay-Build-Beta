@@ -1,4 +1,4 @@
-const { EModelEndpoint } = require('librechat-data-provider');
+const { EModelEndpoint } = require('podplay-build-data-provider');
 const { isUserProvided } = require('~/server/utils');
 const { config } = require('./EndpointService');
 

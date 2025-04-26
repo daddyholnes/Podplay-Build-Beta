@@ -8,7 +8,7 @@ import {
   isEphemeralAgent,
   EndpointFileConfig,
   fileConfig as defaultFileConfig,
-} from 'librechat-data-provider';
+} from 'podplay-build-data-provider';
 import { useChatContext } from '~/Providers';
 import { useGetFileConfig } from '~/data-provider';
 import { ephemeralAgentByConvoId } from '~/store';

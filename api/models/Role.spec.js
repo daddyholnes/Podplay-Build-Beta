@@ -5,7 +5,7 @@ const {
   Permissions,
   roleDefaults,
   PermissionTypes,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { Role, getRoleByName, updateAccessPermissions, initializeRoles } = require('~/models/Role');
 const getLogStores = require('~/cache/getLogStores');
 

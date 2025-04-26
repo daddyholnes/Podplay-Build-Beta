@@ -1,6 +1,6 @@
 import { memo } from 'react';
-import { imageExtRegex } from 'librechat-data-provider';
-import type { TAttachment, TFile, TAttachmentMetadata } from 'librechat-data-provider';
+import { imageExtRegex } from 'podplay-build-data-provider';
+import type { TAttachment, TFile, TAttachmentMetadata } from 'podplay-build-data-provider';
 import FileContainer from '~/components/Chat/Input/Files/FileContainer';
 import Image from '~/components/Chat/Messages/Content/Image';
 import { useAttachmentLink } from './LogLink';

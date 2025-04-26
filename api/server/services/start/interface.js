@@ -3,7 +3,7 @@ const {
   Permissions,
   PermissionTypes,
   removeNullishValues,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { updateAccessPermissions } = require('~/models/Role');
 const { logger } = require('~/config');
 

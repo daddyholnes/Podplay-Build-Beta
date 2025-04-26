@@ -1,4 +1,4 @@
-import { TFile } from 'librechat-data-provider/dist/types';
+import { TFile } from 'podplay-build-data-provider/dist/types';
 import React, { useState } from 'react';
 import { TThread, TVectorStore } from '~/common';
 import { CheckMark, TrashIcon } from '~/components/svg';

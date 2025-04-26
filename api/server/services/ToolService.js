@@ -14,7 +14,7 @@ const {
   openapiToFunction,
   AgentCapabilities,
   validateAndParseOpenAPISpec,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const {
   loadActionSets,
   createActionTool,

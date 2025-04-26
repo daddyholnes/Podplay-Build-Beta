@@ -6,7 +6,7 @@ const {
   getResponseSender,
   AgentCapabilities,
   providerEndpointMap,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const {
   getDefaultHandlers,
   createToolEndCallback,

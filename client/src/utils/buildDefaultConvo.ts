@@ -3,8 +3,8 @@ import {
   EModelEndpoint,
   isAssistantsEndpoint,
   isAgentsEndpoint,
-} from 'librechat-data-provider';
-import type { TConversation } from 'librechat-data-provider';
+} from 'podplay-build-data-provider';
+import type { TConversation } from 'podplay-build-data-provider';
 import { getLocalStorageItems } from './localStorage';
 
 const buildDefaultConvo = ({

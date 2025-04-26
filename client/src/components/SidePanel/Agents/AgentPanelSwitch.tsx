@@ -1,7 +1,7 @@
 import { useState, useEffect, useMemo } from 'react';
-import { EModelEndpoint } from 'librechat-data-provider';
+import { EModelEndpoint } from 'podplay-build-data-provider';
 import type { ActionsEndpoint } from '~/common';
-import type { Action, TConfig, TEndpointsConfig } from 'librechat-data-provider';
+import type { Action, TConfig, TEndpointsConfig } from 'podplay-build-data-provider';
 import { useGetActionsQuery, useGetEndpointsQuery } from '~/data-provider';
 import { useChatContext } from '~/Providers';
 import ActionsPanel from './ActionsPanel';

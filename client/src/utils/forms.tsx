@@ -4,8 +4,8 @@ import {
   alternateName,
   EModelEndpoint,
   EToolResources,
-} from 'librechat-data-provider';
-import type { Agent, TFile } from 'librechat-data-provider';
+} from 'podplay-build-data-provider';
+import type { Agent, TFile } from 'podplay-build-data-provider';
 import type { DropdownValueSetter, TAgentOption, ExtendedFile } from '~/common';
 
 /**

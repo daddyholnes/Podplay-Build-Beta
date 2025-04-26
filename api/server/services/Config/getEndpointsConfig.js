@@ -1,4 +1,4 @@
-const { CacheKeys, EModelEndpoint, orderEndpointsConfig } = require('librechat-data-provider');
+const { CacheKeys, EModelEndpoint, orderEndpointsConfig } = require('podplay-build-data-provider');
 const loadDefaultEndpointsConfig = require('./loadDefaultEConfig');
 const loadConfigEndpoints = require('./loadConfigEndpoints');
 const getLogStores = require('~/cache/getLogStores');

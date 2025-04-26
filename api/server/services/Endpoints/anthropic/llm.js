@@ -1,5 +1,5 @@
 const { HttpsProxyAgent } = require('https-proxy-agent');
-const { anthropicSettings, removeNullishValues } = require('librechat-data-provider');
+const { anthropicSettings, removeNullishValues } = require('podplay-build-data-provider');
 const { checkPromptCacheSupport, getClaudeHeaders, configureReasoning } = require('./helpers');
 
 /**

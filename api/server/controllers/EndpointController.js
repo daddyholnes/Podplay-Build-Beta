@@ -1,5 +1,5 @@
 const { getEndpointsConfig } = require('~/server/services/Config');
-const { EModelEndpoint } = require('librechat-data-provider');
+const { EModelEndpoint } = require('podplay-build-data-provider');
 
 async function endpointController(req, res) {
   const endpointsConfig = await getEndpointsConfig(req);

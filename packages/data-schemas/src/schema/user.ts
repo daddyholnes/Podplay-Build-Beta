@@ -1,5 +1,5 @@
 import { Schema, Document } from 'mongoose';
-import { SystemRoles } from 'librechat-data-provider';
+import { SystemRoles } from 'podplay-build-data-provider';
 
 export interface IUser extends Document {
   name?: string;

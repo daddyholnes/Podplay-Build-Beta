@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef } from 'react';
 import copy from 'copy-to-clipboard';
-import { ContentTypes } from 'librechat-data-provider';
-import type { TMessage } from 'librechat-data-provider';
+import { ContentTypes } from 'podplay-build-data-provider';
+import type { TMessage } from 'podplay-build-data-provider';
 
 export default function useCopyToClipboard({
   text,

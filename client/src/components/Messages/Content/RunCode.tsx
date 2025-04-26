@@ -1,5 +1,5 @@
 import debounce from 'lodash/debounce';
-import { Tools, AuthType } from 'librechat-data-provider';
+import { Tools, AuthType } from 'podplay-build-data-provider';
 import { TerminalSquareIcon, Loader } from 'lucide-react';
 import React, { useMemo, useCallback, useEffect } from 'react';
 import type { CodeBarProps } from '~/common';

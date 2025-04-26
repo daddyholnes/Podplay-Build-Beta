@@ -4,7 +4,7 @@ const {
   envVarRegex,
   FetchTokenConfig,
   extractEnvVariable,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { Providers } = require('@librechat/agents');
 const { getUserKeyValues, checkUserKeyExpiry } = require('~/server/services/UserService');
 const { getLLMConfig } = require('~/server/services/Endpoints/openAI/llm');

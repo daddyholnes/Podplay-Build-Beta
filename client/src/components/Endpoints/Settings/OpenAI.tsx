@@ -1,6 +1,6 @@
 import { useMemo } from 'react';
-import { getSettingsKeys } from 'librechat-data-provider';
-import type { SettingDefinition, DynamicSettingProps } from 'librechat-data-provider';
+import { getSettingsKeys } from 'podplay-build-data-provider';
+import type { SettingDefinition, DynamicSettingProps } from 'podplay-build-data-provider';
 import type { TModelSelectProps } from '~/common';
 import { componentMapping } from '~/components/SidePanel/Parameters/components';
 import { presetSettings } from '~/components/SidePanel/Parameters/settings';

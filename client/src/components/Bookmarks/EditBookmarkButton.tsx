@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import type { FC } from 'react';
-import type { TConversationTag } from 'librechat-data-provider';
+import type { TConversationTag } from 'podplay-build-data-provider';
 import { TooltipAnchor, OGDialogTrigger } from '~/components/ui';
 import BookmarkEditDialog from './BookmarkEditDialog';
 import { EditIcon } from '~/components/svg';

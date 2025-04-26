@@ -10,7 +10,7 @@ import { Card, CardContent } from '~/components/ui/Card';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '~/components/ui/Accordion';
 import { CircleLoader } from 'react-spinners';
 import { ArrowRight, AlertTriangle, GanttChartSquare, Sparkles } from 'lucide-react';
-import { EModelEndpoint } from 'librechat-data-provider';
+import { EModelEndpoint } from 'podplay-build-data-provider';
 
 export default function GeminiVertexTab() {
   const { 

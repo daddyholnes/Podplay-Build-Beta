@@ -4,7 +4,7 @@ import {
   AuthTypeEnum,
   AuthorizationTypeEnum,
   TokenExchangeMethodEnum,
-} from 'librechat-data-provider';
+} from 'podplay-build-data-provider';
 import { ChevronLeft } from 'lucide-react';
 import type { AgentPanelProps, ActionAuthForm } from '~/common';
 import ActionsAuth from '~/components/SidePanel/Builder/ActionsAuth';

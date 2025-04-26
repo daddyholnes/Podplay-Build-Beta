@@ -1,5 +1,5 @@
 const express = require('express');
-const { PermissionTypes, Permissions, SystemRoles } = require('librechat-data-provider');
+const { PermissionTypes, Permissions, SystemRoles } = require('podplay-build-data-provider');
 const {
   getPrompt,
   getPrompts,

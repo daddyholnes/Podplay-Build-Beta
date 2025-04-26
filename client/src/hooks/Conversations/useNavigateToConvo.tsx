@@ -7,8 +7,8 @@ import {
   dataService,
   EModelEndpoint,
   LocalStorageKeys,
-} from 'librechat-data-provider';
-import type { TConversation, TEndpointsConfig, TModelsConfig } from 'librechat-data-provider';
+} from 'podplay-build-data-provider';
+import type { TConversation, TEndpointsConfig, TModelsConfig } from 'podplay-build-data-provider';
 import { buildDefaultConvo, getDefaultEndpoint, getEndpointField, logger } from '~/utils';
 import store from '~/store';
 

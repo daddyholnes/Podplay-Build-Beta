@@ -17,7 +17,7 @@ const {
   removeNullishValues,
   hostImageNamePrefix,
   isAssistantsEndpoint,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { EnvVar } = require('@librechat/agents');
 const {
   convertImage,

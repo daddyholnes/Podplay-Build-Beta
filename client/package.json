@@ -1,7 +1,7 @@
 {
-  "name": "@librechat/frontend",
+  "name": "@podplay-build/frontend",
   "version": "v0.7.7",
-  "description": "",
+  "description": "Podplay-Build - Advanced AI Conversation Platform for Podcast Creation",
   "type": "module",
   "scripts": {
     "data-provider": "cd .. && npm run build:data-provider",
@@ -18,15 +18,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danny-avila/LibreChat.git"
+    "url": "git+https://github.com/daddyholnes/Podplay-Build-Beta.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danny-avila/LibreChat/issues"
+    "url": "https://github.com/daddyholnes/Podplay-Build-Beta/issues"
   },
-  "homepage": "https://librechat.ai",
+  "homepage": "https://podplay-build.io",
   "dependencies": {
     "@ariakit/react": "^0.4.15",
     "@ariakit/react-core": "^0.4.17",

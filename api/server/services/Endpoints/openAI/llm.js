@@ -1,5 +1,5 @@
 const { HttpsProxyAgent } = require('https-proxy-agent');
-const { KnownEndpoints } = require('librechat-data-provider');
+const { KnownEndpoints } = require('podplay-build-data-provider');
 const { sanitizeModelName, constructAzureURL } = require('~/utils');
 const { isEnabled } = require('~/server/utils');
 

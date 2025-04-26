@@ -1,6 +1,6 @@
 import { CallToolResultSchema, ErrorCode, McpError } from '@modelcontextprotocol/sdk/types.js';
 import type { RequestOptions } from '@modelcontextprotocol/sdk/shared/protocol.js';
-import type { JsonSchemaType, MCPOptions } from 'librechat-data-provider';
+import type { JsonSchemaType, MCPOptions } from 'podplay-build-data-provider';
 import type { Logger } from 'winston';
 import type * as t from './types/mcp';
 import { formatToolContent } from './parsers';

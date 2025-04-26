@@ -1,6 +1,6 @@
 const OpenAI = require('openai');
 const { HttpsProxyAgent } = require('https-proxy-agent');
-const { ErrorTypes, EModelEndpoint } = require('librechat-data-provider');
+const { ErrorTypes, EModelEndpoint } = require('podplay-build-data-provider');
 const {
   getUserKeyValues,
   getUserKeyExpiry,

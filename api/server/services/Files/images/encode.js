@@ -5,7 +5,7 @@ const {
   ImageDetail,
   ContentTypes,
   EModelEndpoint,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { getStrategyFunctions } = require('~/server/services/Files/strategies');
 const { logAxiosError } = require('~/utils');
 const { logger } = require('~/config');

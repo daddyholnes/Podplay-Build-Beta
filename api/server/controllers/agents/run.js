@@ -1,5 +1,5 @@
 const { Run, Providers } = require('@librechat/agents');
-const { providerEndpointMap, KnownEndpoints } = require('librechat-data-provider');
+const { providerEndpointMap, KnownEndpoints } = require('podplay-build-data-provider');
 
 /**
  * @typedef {import('@librechat/agents').t} t

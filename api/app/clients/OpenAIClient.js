@@ -15,7 +15,7 @@ const {
   getResponseSender,
   validateVisionModel,
   mapModelToAzureConfig,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const {
   extractBaseURL,
   constructAzureURL,

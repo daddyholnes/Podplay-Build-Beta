@@ -1,7 +1,7 @@
 {
-  "name": "librechat-data-provider",
+  "name": "podplay-build-data-provider",
   "version": "0.7.792",
-  "description": "data services for librechat apps",
+  "description": "data services for Podplay-Build apps",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "./dist/types/index.d.ts",
@@ -30,14 +30,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danny-avila/LibreChat.git"
+    "url": "git+https://github.com/daddyholnes/Podplay-Build-Beta.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danny-avila/LibreChat/issues"
+    "url": "https://github.com/daddyholnes/Podplay-Build-Beta/issues"
   },
-  "homepage": "https://librechat.ai",
+  "homepage": "https://podplay-build.io",
   "dependencies": {
     "axios": "^1.8.2",
     "js-yaml": "^4.1.0",

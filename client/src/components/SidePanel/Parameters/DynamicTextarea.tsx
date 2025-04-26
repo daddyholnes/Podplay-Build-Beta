@@ -1,5 +1,5 @@
-import { OptionTypes } from 'librechat-data-provider';
-import type { DynamicSettingProps } from 'librechat-data-provider';
+import { OptionTypes } from 'podplay-build-data-provider';
+import type { DynamicSettingProps } from 'podplay-build-data-provider';
 import { Label, TextareaAutosize, HoverCard, HoverCardTrigger } from '~/components/ui';
 import { useLocalize, useDebouncedInput, useParameterEffects, TranslationKeys } from '~/hooks';
 import { cn, defaultTextProps } from '~/utils';

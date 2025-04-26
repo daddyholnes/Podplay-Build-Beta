@@ -9,7 +9,7 @@ const {
   excludedKeys,
   ErrorTypes,
   Constants,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { getMessages, saveMessage, updateMessage, saveConvo, getConvo } = require('~/models');
 const { checkBalance } = require('~/models/balanceMethods');
 const { truncateToolCallOutputs } = require('./prompts');

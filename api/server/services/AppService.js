@@ -4,7 +4,7 @@ const {
   loadOCRConfig,
   processMCPEnv,
   getConfigDefaults,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { checkVariables, checkHealth, checkConfig, checkAzureVariables } = require('./start/checks');
 const { azureAssistantsDefaults, assistantsConfigSetup } = require('./start/assistants');
 const { initializeAzureBlobService } = require('./Files/Azure/initialize');

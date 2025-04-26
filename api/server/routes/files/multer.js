@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const crypto = require('crypto');
 const multer = require('multer');
-const { fileConfig: defaultFileConfig, mergeFileConfig } = require('librechat-data-provider');
+const { fileConfig: defaultFileConfig, mergeFileConfig } = require('podplay-build-data-provider');
 const { sanitizeFilename } = require('~/server/utils/handleText');
 const { getCustomConfig } = require('~/server/services/Config');
 

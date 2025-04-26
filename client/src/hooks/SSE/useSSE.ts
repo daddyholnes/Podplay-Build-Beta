@@ -11,8 +11,8 @@ import {
   LocalStorageKeys,
   removeNullishValues,
   isAssistantsEndpoint,
-} from 'librechat-data-provider';
-import type { TMessage, TPayload, TSubmission, EventSubmission } from 'librechat-data-provider';
+} from 'podplay-build-data-provider';
+import type { TMessage, TPayload, TSubmission, EventSubmission } from 'podplay-build-data-provider';
 import type { EventHandlerParams } from './useEventHandlers';
 import type { TResData } from '~/common';
 import { useGenTitleMutation, useGetStartupConfig, useGetUserBalance } from '~/data-provider';

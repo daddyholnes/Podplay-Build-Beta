@@ -1,7 +1,7 @@
 const axios = require('axios');
 const { Providers } = require('@librechat/agents');
 const { HttpsProxyAgent } = require('https-proxy-agent');
-const { EModelEndpoint, defaultModels, CacheKeys } = require('librechat-data-provider');
+const { EModelEndpoint, defaultModels, CacheKeys } = require('podplay-build-data-provider');
 const { inputSchema, logAxiosError, extractBaseURL, processModelData } = require('~/utils');
 const { OllamaClient } = require('~/app/clients/OllamaClient');
 const { isUserProvided } = require('~/server/utils');

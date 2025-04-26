@@ -1,6 +1,6 @@
 import { TranslationKeys, useLocalize } from '~/hooks';
 import { BlinkAnimation } from './BlinkAnimation';
-import { TStartupConfig } from 'librechat-data-provider';
+import { TStartupConfig } from 'podplay-build-data-provider';
 import SocialLoginRender from './SocialLoginRender';
 import { ThemeSelector } from '~/components/ui';
 import { Banner } from '../Banners';

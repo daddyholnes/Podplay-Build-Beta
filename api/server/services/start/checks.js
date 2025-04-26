@@ -2,7 +2,7 @@ const {
   Constants,
   deprecatedAzureVariables,
   conflictingAzureVariables,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { isEnabled, checkEmailConfig } = require('~/server/utils');
 const { logger } = require('~/config');
 

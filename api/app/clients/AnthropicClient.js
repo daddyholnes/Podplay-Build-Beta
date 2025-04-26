@@ -8,7 +8,7 @@ const {
   anthropicSettings,
   getResponseSender,
   validateVisionModel,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { SplitStreamHandler: _Handler } = require('@librechat/agents');
 const {
   truncateText,

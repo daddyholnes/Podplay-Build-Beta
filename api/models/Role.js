@@ -6,7 +6,7 @@ const {
   PermissionTypes,
   permissionsSchema,
   removeNullishValues,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const getLogStores = require('~/cache/getLogStores');
 const { roleSchema } = require('@librechat/data-schemas');
 const { logger } = require('~/config');

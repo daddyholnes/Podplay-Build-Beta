@@ -1,6 +1,6 @@
 const bcrypt = require('bcryptjs');
 const { webcrypto } = require('node:crypto');
-const { SystemRoles, errorsToString } = require('librechat-data-provider');
+const { SystemRoles, errorsToString } = require('podplay-build-data-provider');
 const {
   findUser,
   countUsers,

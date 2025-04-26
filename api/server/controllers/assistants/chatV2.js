@@ -9,7 +9,7 @@ const {
   EModelEndpoint,
   retrievalMimeTypes,
   AssistantStreamEvents,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const {
   initThread,
   recordUsage,

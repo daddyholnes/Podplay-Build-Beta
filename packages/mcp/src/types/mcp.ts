@@ -5,8 +5,8 @@ import {
   MCPServersSchema,
   StdioOptionsSchema,
   WebSocketOptionsSchema,
-} from 'librechat-data-provider';
-import type { JsonSchemaType, TPlugin } from 'librechat-data-provider';
+} from 'podplay-build-data-provider';
+import type { JsonSchemaType, TPlugin } from 'podplay-build-data-provider';
 import { ToolSchema, ListToolsResultSchema } from '@modelcontextprotocol/sdk/types.js';
 import type * as t from '@modelcontextprotocol/sdk/types.js';
 

@@ -1,6 +1,6 @@
 import { useRecoilValue } from 'recoil';
 import { useCallback, useMemo } from 'react';
-import { isAssistantsEndpoint, isAgentsEndpoint } from 'librechat-data-provider';
+import { isAssistantsEndpoint, isAgentsEndpoint } from 'podplay-build-data-provider';
 import type { TMessageProps } from '~/common';
 import {
   useChatContext,

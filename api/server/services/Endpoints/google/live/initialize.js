@@ -5,7 +5,7 @@
  * with the appropriate configurations for real-time streaming conversations.
  */
 
-const { AuthKeys, EModelEndpoint } = require('librechat-data-provider');
+const { AuthKeys, EModelEndpoint } = require('podplay-build-data-provider');
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const { getUserKey, checkUserKeyExpiry } = require('~/server/services/UserService');
 const { logger } = require('~/config');

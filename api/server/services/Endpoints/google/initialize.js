@@ -1,4 +1,4 @@
-const { EModelEndpoint, AuthKeys } = require('librechat-data-provider');
+const { EModelEndpoint, AuthKeys } = require('podplay-build-data-provider');
 const { getUserKey, checkUserKeyExpiry } = require('~/server/services/UserService');
 const { getLLMConfig } = require('~/server/services/Endpoints/google/llm');
 const { isEnabled } = require('~/server/utils');

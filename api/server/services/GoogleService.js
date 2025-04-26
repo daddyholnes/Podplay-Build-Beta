@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { EModelEndpoint } = require('librechat-data-provider');
+const { EModelEndpoint } = require('podplay-build-data-provider');
 const { logger } = require('~/config');
 
 const endpoint = EModelEndpoint.google;

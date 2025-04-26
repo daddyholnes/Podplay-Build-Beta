@@ -6,8 +6,8 @@ import {
   ReasoningEffort,
   BedrockProviders,
   anthropicSettings,
-} from 'librechat-data-provider';
-import type { SettingsConfiguration, SettingDefinition } from 'librechat-data-provider';
+} from 'podplay-build-data-provider';
+import type { SettingsConfiguration, SettingDefinition } from 'podplay-build-data-provider';
 
 // Base definitions
 const baseDefinitions: Record<string, SettingDefinition> = {

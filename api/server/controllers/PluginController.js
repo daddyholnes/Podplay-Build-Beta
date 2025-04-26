@@ -1,4 +1,4 @@
-const { CacheKeys, AuthType } = require('librechat-data-provider');
+const { CacheKeys, AuthType } = require('podplay-build-data-provider');
 const { addOpenAPISpecs } = require('~/app/clients/tools/util/addOpenAPISpecs');
 const { getCustomConfig } = require('~/server/services/Config');
 const { availableTools } = require('~/app/clients/tools');

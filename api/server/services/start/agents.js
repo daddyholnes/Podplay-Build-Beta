@@ -1,4 +1,4 @@
-const { EModelEndpoint, agentsEndpointSChema } = require('librechat-data-provider');
+const { EModelEndpoint, agentsEndpointSChema } = require('podplay-build-data-provider');
 
 /**
  * Sets up the Agents configuration from the config (`librechat.yaml`) file.

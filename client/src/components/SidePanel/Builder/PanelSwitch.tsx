@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react';
-import { defaultAssistantsVersion } from 'librechat-data-provider';
-import type { Action, TEndpointsConfig, AssistantsEndpoint } from 'librechat-data-provider';
+import { defaultAssistantsVersion } from 'podplay-build-data-provider';
+import type { Action, TEndpointsConfig, AssistantsEndpoint } from 'podplay-build-data-provider';
 import type { ActionsEndpoint } from '~/common';
 import {
   useGetActionsQuery,

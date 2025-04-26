@@ -6,7 +6,7 @@
  */
 
 const { logger } = require('~/config');
-const { ErrorTypes } = require('librechat-data-provider');
+const { ErrorTypes } = require('podplay-build-data-provider');
 
 /**
  * Processes image data in the message content

@@ -11,7 +11,7 @@ const {
   actionDelimiter,
   isImageVisionTool,
   actionDomainSeparator,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { refreshAccessToken } = require('~/server/services/TokenService');
 const { logger, getFlowStateManager, sendEvent } = require('~/config');
 const { encryptV2, decryptV2 } = require('~/server/utils/crypto');

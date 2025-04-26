@@ -6,7 +6,7 @@
 // resolveHeaders,
 // validateVisionModel,
 // mapModelToAzureConfig,
-// } = require('librechat-data-provider');
+// } = require('podplay-build-data-provider');
 require('events').EventEmitter.defaultMaxListeners = 100;
 const {
   Callback,
@@ -27,7 +27,7 @@ const {
   AgentCapabilities,
   bedrockInputSchema,
   removeNullishValues,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { getCustomEndpointConfig, checkCapability } = require('~/server/services/Config');
 const { addCacheControl, createContextHandlers } = require('~/app/clients/prompts');
 const { spendTokens, spendStructuredTokens } = require('~/models/spendTokens');

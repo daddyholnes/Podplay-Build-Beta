@@ -1,5 +1,5 @@
-import { EModelEndpoint, AuthType } from 'librechat-data-provider';
-import type { TModelSpec } from 'librechat-data-provider';
+import { EModelEndpoint, AuthType } from 'podplay-build-data-provider';
+import type { TModelSpec } from 'podplay-build-data-provider';
 
 export const data: TModelSpec[] = [
   {

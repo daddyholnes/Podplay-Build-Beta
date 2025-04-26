@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { EarthIcon } from 'lucide-react';
-import { isAgentsEndpoint, isAssistantsEndpoint } from 'librechat-data-provider';
-import type { TModelSpec } from 'librechat-data-provider';
+import { isAgentsEndpoint, isAssistantsEndpoint } from 'podplay-build-data-provider';
+import type { TModelSpec } from 'podplay-build-data-provider';
 import type { Endpoint } from '~/common';
 import { useModelSelectorContext } from '../ModelSelectorContext';
 import { CustomMenuItem as MenuItem } from '../CustomMenu';

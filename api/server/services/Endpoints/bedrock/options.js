@@ -6,7 +6,7 @@ const {
   bedrockInputParser,
   bedrockOutputParser,
   removeNullishValues,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const { getUserKey, checkUserKeyExpiry } = require('~/server/services/UserService');
 const { createHandleLLMNewToken } = require('~/app/clients/generators');
 

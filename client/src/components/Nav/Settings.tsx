@@ -1,7 +1,7 @@
 import React, { useState, useRef } from 'react';
 import * as Tabs from '@radix-ui/react-tabs';
 import { MessageSquare, Command } from 'lucide-react';
-import { SettingsTabValues } from 'librechat-data-provider';
+import { SettingsTabValues } from 'podplay-build-data-provider';
 import type { TDialogProps } from '~/common';
 import { Dialog, DialogPanel, DialogTitle, Transition, TransitionChild } from '@headlessui/react';
 import { GearIcon, DataIcon, SpeechIcon, UserIcon, ExperimentIcon } from '~/components/svg';

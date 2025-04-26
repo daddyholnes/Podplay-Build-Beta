@@ -1,8 +1,8 @@
 import { useForm } from 'react-hook-form';
-import { ContentTypes } from 'librechat-data-provider';
+import { ContentTypes } from 'podplay-build-data-provider';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import { useRef, useEffect, useCallback, useMemo } from 'react';
-import { useUpdateMessageContentMutation } from 'librechat-data-provider/react-query';
+import { useUpdateMessageContentMutation } from 'podplay-build-data-provider/react-query';
 import type { TEditProps } from '~/common';
 import Container from '~/components/Chat/Messages/Content/Container';
 import { useChatContext, useAddedChatContext } from '~/Providers';

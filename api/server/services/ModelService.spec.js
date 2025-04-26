@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { EModelEndpoint, defaultModels } = require('librechat-data-provider');
+const { EModelEndpoint, defaultModels } = require('podplay-build-data-provider');
 const { logger } = require('~/config');
 
 const {

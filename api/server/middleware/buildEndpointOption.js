@@ -3,7 +3,7 @@ const {
   EModelEndpoint,
   isAgentsEndpoint,
   EndpointURLs,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const azureAssistants = require('~/server/services/Endpoints/azureAssistants');
 const { getModelsConfig } = require('~/server/controllers/ModelController');
 const assistants = require('~/server/services/Endpoints/assistants');

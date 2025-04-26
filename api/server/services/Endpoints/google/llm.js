@@ -1,5 +1,5 @@
 const { Providers } = require('@librechat/agents');
-const { AuthKeys } = require('librechat-data-provider');
+const { AuthKeys } = require('podplay-build-data-provider');
 const { isEnabled } = require('~/server/utils');
 
 function getThresholdMapping(model) {

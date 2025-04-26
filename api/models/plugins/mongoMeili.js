@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const mongoose = require('mongoose');
 const { MeiliSearch } = require('meilisearch');
-const { parseTextParts, ContentTypes } = require('librechat-data-provider');
+const { parseTextParts, ContentTypes } = require('podplay-build-data-provider');
 const { cleanUpPrimaryKeyValue } = require('~/lib/utils/misc');
 const logger = require('~/config/meiliLogger');
 

@@ -5,7 +5,7 @@ const {
   EModelEndpoint,
   resolveHeaders,
   mapModelToAzureConfig,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const {
   getUserKeyValues,
   getUserKeyExpiry,

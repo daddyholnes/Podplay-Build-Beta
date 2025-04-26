@@ -1,7 +1,7 @@
 {
-  "name": "librechat",
+  "name": "podplay-build",
   "version": "v0.7.7",
-  "description": "",
+  "description": "Podplay-Build - Advanced AI Conversation Platform",
   "workspaces": [
     "api",
     "client",
@@ -74,14 +74,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danny-avila/LibreChat.git"
+    "url": "git+https://github.com/daddyholnes/Podplay-Build-Beta.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danny-avila/LibreChat/issues"
+    "url": "https://github.com/daddyholnes/Podplay-Build-Beta/issues"
   },
-  "homepage": "https://librechat.ai/",
+  "homepage": "https://podplay-build.io/",
   "devDependencies": {
     "@axe-core/playwright": "^4.10.1",
     "@eslint/compat": "^1.2.6",

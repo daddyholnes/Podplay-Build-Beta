@@ -9,7 +9,7 @@ const {
   EModelEndpoint,
   isAgentsEndpoint,
   checkOpenAIStorage,
-} = require('librechat-data-provider');
+} = require('podplay-build-data-provider');
 const {
   filterFile,
   processFileUpload,

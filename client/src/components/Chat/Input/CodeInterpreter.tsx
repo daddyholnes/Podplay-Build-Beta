@@ -9,7 +9,7 @@ import {
   LocalStorageKeys,
   PermissionTypes,
   Permissions,
-} from 'librechat-data-provider';
+} from 'podplay-build-data-provider';
 import ApiKeyDialog from '~/components/SidePanel/Agents/Code/ApiKeyDialog';
 import { useLocalize, useHasAccess, useCodeApiKeyForm } from '~/hooks';
 import CheckboxButton from '~/components/ui/CheckboxButton';

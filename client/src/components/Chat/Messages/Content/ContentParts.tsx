@@ -1,7 +1,7 @@
 import { memo, useMemo, useState } from 'react';
 import { useRecoilValue, useRecoilState } from 'recoil';
-import { ContentTypes } from 'librechat-data-provider';
-import type { TMessageContentParts, TAttachment, Agents } from 'librechat-data-provider';
+import { ContentTypes } from 'podplay-build-data-provider';
+import type { TMessageContentParts, TAttachment, Agents } from 'podplay-build-data-provider';
 import { ThinkingButton } from '~/components/Artifacts/Thinking';
 import EditTextPart from './Parts/EditTextPart';
 import useLocalize from '~/hooks/useLocalize';

@@ -1,8 +1,8 @@
 {
-  "name": "librechat-mcp",
+  "name": "podplay-build-mcp",
   "version": "1.2.0",
   "type": "commonjs",
-  "description": "MCP services for LibreChat",
+  "description": "MCP services for Podplay-Build",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "./dist/types/index.d.ts",
@@ -28,14 +28,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danny-avila/LibreChat.git"
+    "url": "git+https://github.com/daddyholnes/Podplay-Build-Beta.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/danny-avila/LibreChat/issues"
+    "url": "https://github.com/daddyholnes/Podplay-Build-Beta/issues"
   },
-  "homepage": "https://librechat.ai",
+  "homepage": "https://podplay-build.io",
   "devDependencies": {
     "@babel/preset-env": "^7.21.5",
     "@babel/preset-react": "^7.18.6",

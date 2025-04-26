@@ -1,5 +1,5 @@
 const express = require('express');
-const { EModelEndpoint } = require('librechat-data-provider');
+const { EModelEndpoint } = require('podplay-build-data-provider');
 const {
   uaParser,
   checkBan,

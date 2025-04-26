@@ -1,5 +1,5 @@
 const { model } = require('mongoose');
-const { GLOBAL_PROJECT_NAME } = require('librechat-data-provider').Constants;
+const { GLOBAL_PROJECT_NAME } = require('podplay-build-data-provider').Constants;
 const { projectSchema } = require('@librechat/data-schemas');
 
 const Project = model('Project', projectSchema);

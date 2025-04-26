@@ -1,5 +1,5 @@
 import { format } from 'date-fns';
-import type { TUser, TPromptGroup } from 'librechat-data-provider';
+import type { TUser, TPromptGroup } from 'podplay-build-data-provider';
 
 export function replaceSpecialVars({ text, user }: { text: string; user?: TUser }) {
   if (!text) {

@@ -1,7 +1,7 @@
 import { useQuery } from '@tanstack/react-query';
 import type { UseQueryOptions, QueryObserverResult } from '@tanstack/react-query';
-import type { TConversationTagsResponse } from 'librechat-data-provider';
-import { QueryKeys, dataService } from 'librechat-data-provider';
+import type { TConversationTagsResponse } from 'podplay-build-data-provider';
+import { QueryKeys, dataService } from 'podplay-build-data-provider';
 
 export const useGetConversationTags = (
   config?: UseQueryOptions<TConversationTagsResponse>,
