@@ -23,6 +23,7 @@ export * from './Tag';
 export * from './Textarea';
 export * from './TextareaAutosize';
 export * from './Tooltip';
+export { TooltipTrigger as TooltipAnchor } from './Tooltip';
 export * from './Pagination';
 export * from './Progress';
 export * from './InputOTP';

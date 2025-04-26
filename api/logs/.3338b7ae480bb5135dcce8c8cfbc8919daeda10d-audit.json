@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\podplay-backup\\Podplay-Build-Beta\\api\\logs\\.3338b7ae480bb5135dcce8c8cfbc8919daeda10d-audit.json",
+    "files": [
+        {
+            "date": 1745703463898,
+            "name": "C:\\podplay-backup\\Podplay-Build-Beta\\api\\logs\\meiliSync-2025-04-26.log",
+            "hash": "58d349294afe28afa7910ecc8a738c96758ef433f585b774fce9e8fc79a420d1"
+        }
+    ],
+    "hashType": "sha256"
+}
