@@ -5,7 +5,7 @@ import { AuthContextProvider } from './hooks/AuthContext'; // Adjust path if nee
 import { ThemeProvider } from './hooks/ThemeContext'; // Adjust path if needed
 import { TooltipProvider } from '~/components/ui/tooltip'; // Ensure correct path
 import { router } from './routes'; // Assuming routes.jsx is in the same src directory
-import store from './store'; // Assuming Redux store setup
+import store from './store/store'; // Use configured store instance
 import { Provider } from 'react-redux'; // Import Redux Provider
 
 // Import main CSS
