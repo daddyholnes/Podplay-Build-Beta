@@ -6,11 +6,12 @@
 
   # Use https://search.nixos.org/packages to find packages
   packages = [
-    # pkgs.go
-    # pkgs.python311
-    # pkgs.python311Packages.pip
-    # pkgs.nodejs_20
-    # pkgs.nodePackages.nodemon
+    pkgs.go
+    pkgs.python311
+    pkgs.python311Packages.pip
+    pkgs.nodejs_20
+    pkgs.nodePackages.nodemon
+    pkgs.gh
   ];
 
   # Sets environment variables in the workspace
@@ -19,6 +20,13 @@
     # Search for the extensions you want on https://open-vsx.org/ and use "publisher.id"
     extensions = [
       # "vscodevim.vim"
+      "AmazonWebServices-AISolutionsArchitecture.bedrock-vscode-playground"
+      "amazonwebservices.amazon-q-vscode"
+      "amazonwebservices.aws-toolkit-vscode"
+      "ms-azuretools.vscode-azurefunctions"
+      "ms-azuretools.vscode-azureresourcegroups"
+      "ms-vscode.azure-account"
+      "ms-vscode.azurecli"
     ];
 
     # Enable previews
