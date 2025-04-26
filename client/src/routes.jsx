@@ -6,11 +6,11 @@ import { useAuthContext } from '~/hooks/AuthContext'; // Assuming this hook exis
 // import RootLayout from './layouts/RootLayout';
 
 // Dynamically import components for code splitting
-const Landing = React.lazy(() => import('~/components/Landing'));
-const Search = React.lazy(() => import('~/components/Search'));
-const GeminiStudio = React.lazy(() => import('~/components/GeminiStudio'));
-const GeminiVertex = React.lazy(() => import('~/components/GeminiVertex'));
-const Chat = React.lazy(() => import('~/components/Chat'));
+const Landing = React.lazy(() => import('~/routes/Dashboard'));
+const Search = React.lazy(() => import('~/routes/Search'));
+const GeminiStudio = React.lazy(() => import('~/routes/GeminiStudioRoute'));
+const GeminiVertex = React.lazy(() => import('~/routes/GeminiVertexRoute'));
+const Chat = React.lazy(() => import('~/routes/ChatRoute'));
 const Login = React.lazy(() => import('~/components/Auth/Login'));
 const Registration = React.lazy(() => import('~/components/Auth/Registration'));
 const RequestPasswordReset = React.lazy(() => import('~/components/Auth/RequestPasswordReset'));

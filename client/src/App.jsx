@@ -9,8 +9,7 @@ import store from './store'; // Assuming Redux store setup
 import { Provider } from 'react-redux'; // Import Redux Provider
 
 // Import main CSS
-import './App.css'; // Keep if App.css is directly in src
-import './globals.css'; // Keep if globals.css is directly in src
+import './style.css'; // Keep if style.css is directly in src
 
 function App() {
   return (

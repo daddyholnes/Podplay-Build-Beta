@@ -1,5 +1,5 @@
 {
-  "name": "podplay-build-mcp",
+  "name": "librechat-mcp",
   "version": "1.2.0",
   "type": "commonjs",
   "description": "MCP services for Podplay-Build",

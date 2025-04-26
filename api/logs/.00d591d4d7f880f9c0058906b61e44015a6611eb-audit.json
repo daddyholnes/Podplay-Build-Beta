@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 14
+    },
+    "auditLog": "C:\\podplay-backup\\Podplay-Build-Beta\\api\\logs\\.00d591d4d7f880f9c0058906b61e44015a6611eb-audit.json",
+    "files": [
+        {
+            "date": 1745704738905,
+            "name": "C:\\podplay-backup\\Podplay-Build-Beta\\api\\logs\\error-2025-04-26.log",
+            "hash": "d154137ad822599737d2dafec9b5b009858bd4ef1f23f93a19baec18a7ab933a"
+        }
+    ],
+    "hashType": "sha256"
+}

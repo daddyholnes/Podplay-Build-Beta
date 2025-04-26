@@ -2472,3 +2472,167 @@
 ["\"Ai_PDF.json\"","\"askyourpdf.json\"","\"BrowserOp.json\"","\"DreamInterpreter.json\"","\"drink_maestro.json\"","\"Dr_Thoths_Tarot.json\"","\"earthImagesAndVisualizations.json\"","\"image_prompt_enhancer.json\"","\"qrCodes.json\"","\"scholarai.json\"","\"uberchord.json\"","\"VoxScript.json\"","\"web_search.json\""]
 2025-04-26T16:07:09.745Z error: Failed to fetch models from anthropic API An error occurred while setting up the request: Invalid URL
 2025-04-26T16:10:35.531Z debug: [indexSync] Clearing sync timeouts before exiting...
+2025-04-26T21:59:03.057Z info: [Optional] Redis not initialized.
+2025-04-26T21:59:09.409Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T21:59:10.373Z info: Connected to MongoDB
+2025-04-26T21:59:11.201Z info: Custom config file loaded:
+2025-04-26T21:59:11.202Z info: {
+  "version": "1.2.1",
+  "cache": true,
+  "interface": {
+    "customWelcome": "Welcome to LibreChat! Enjoy your experience.",
+    "privacyPolicy": {
+... [truncated]
+2025-04-26T21:59:11.225Z debug: Custom config:
+{
+  version: "1.2.1",
+  cache: true,
+    interface.customWelcome: "Welcome to LibreChat! Enjoy your experience.",
+    privacyPolicy.externalUrl: "https://librechat.ai/privacy-policy",
+    privacyPolicy.openNewTab: true,
+    termsOfService.externalUrl: "https://librechat.ai/tos",
+    termsOfService.openNewTab: true,
+    termsOfService.modalAcceptance: true,
+    termsOfService.modalTitle: "Terms of Service for LibreChat",
+    termsOfService.modalContent: "# Terms and Conditions for LibreChat\n\n*Effective Date: February 18, 2024*\n\nWelcome to LibreChat, the... [truncated]",
+    interface.endpointsMenu: true,
+    interface.modelSelect: true,
+    interface.parameters: true,
+    interface.sidePanel: true,
+    interface.presets: true,
+    interface.prompts: true,
+    interface.bookmarks: true,
+    interface.multiConvo: true,
+    interface.agents: true,
+    // 6 socialLogin(s)
+    registration.socialLogins: ["github","google","discord","openid","facebook","apple"],
+    // 3 allowedDomain(s)
+    actions.allowedDomains: ["swapi.dev","librechat.ai","google.com"],
+    // 4 custom(s)
+    endpoints.custom: [{"name":"groq","apiKey":"${GROQ_API_KEY}","baseURL":"https://api.groq.com/openai/v1/","models":{"def... [truncated],{"name":"Mistral","apiKey":"${MISTRAL_API_KEY}","baseURL":"https://api.mistral.ai/v1","models":{"def... [truncated],{"name":"OpenRouter","apiKey":"${OPENROUTER_KEY}","baseURL":"https://openrouter.ai/api/v1","models":... [truncated],{"name":"Portkey","apiKey":"dummy","baseURL":"https://api.portkey.ai/v1","headers":{"x-portkey-api-k... [truncated]],
+}
+2025-04-26T21:59:11.229Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T21:59:11.230Z warn: Default value for CREDS_IV is being used.
+2025-04-26T21:59:11.230Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T21:59:11.231Z info: Please replace any default secret values.
+2025-04-26T21:59:11.232Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T21:59:11.235Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T21:59:11.288Z info: No changes needed for 'USER' role permissions
+2025-04-26T21:59:11.317Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T22:02:37.346Z info: [Optional] Redis not initialized.
+2025-04-26T22:02:43.615Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T22:02:44.533Z info: Connected to MongoDB
+2025-04-26T22:02:45.344Z info: Custom config file loaded:
+2025-04-26T22:02:45.344Z info: {
+  "version": "1.2.1",
+  "cache": true,
+  "interface": {
+    "customWelcome": "Welcome to LibreChat! Enjoy your experience.",
+    "privacyPolicy": {
+... [truncated]
+2025-04-26T22:02:45.367Z debug: Custom config:
+{
+  version: "1.2.1",
+  cache: true,
+    interface.customWelcome: "Welcome to LibreChat! Enjoy your experience.",
+    privacyPolicy.externalUrl: "https://librechat.ai/privacy-policy",
+    privacyPolicy.openNewTab: true,
+    termsOfService.externalUrl: "https://librechat.ai/tos",
+    termsOfService.openNewTab: true,
+    termsOfService.modalAcceptance: true,
+    termsOfService.modalTitle: "Terms of Service for LibreChat",
+    termsOfService.modalContent: "# Terms and Conditions for LibreChat\n\n*Effective Date: February 18, 2024*\n\nWelcome to LibreChat, the... [truncated]",
+    interface.endpointsMenu: true,
+    interface.modelSelect: true,
+    interface.parameters: true,
+    interface.sidePanel: true,
+    interface.presets: true,
+    interface.prompts: true,
+    interface.bookmarks: true,
+    interface.multiConvo: true,
+    interface.agents: true,
+    // 6 socialLogin(s)
+    registration.socialLogins: ["github","google","discord","openid","facebook","apple"],
+    // 3 allowedDomain(s)
+    actions.allowedDomains: ["swapi.dev","librechat.ai","google.com"],
+    // 4 custom(s)
+    endpoints.custom: [{"name":"groq","apiKey":"${GROQ_API_KEY}","baseURL":"https://api.groq.com/openai/v1/","models":{"def... [truncated],{"name":"Mistral","apiKey":"${MISTRAL_API_KEY}","baseURL":"https://api.mistral.ai/v1","models":{"def... [truncated],{"name":"OpenRouter","apiKey":"${OPENROUTER_KEY}","baseURL":"https://openrouter.ai/api/v1","models":... [truncated],{"name":"Portkey","apiKey":"dummy","baseURL":"https://api.portkey.ai/v1","headers":{"x-portkey-api-k... [truncated]],
+}
+2025-04-26T22:02:45.370Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T22:02:45.371Z warn: Default value for CREDS_IV is being used.
+2025-04-26T22:02:45.372Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T22:02:45.373Z info: Please replace any default secret values.
+2025-04-26T22:02:45.374Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T22:02:45.377Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T22:02:45.429Z info: No changes needed for 'USER' role permissions
+2025-04-26T22:02:45.458Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T22:10:16.999Z info: [Optional] Redis not initialized.
+2025-04-26T22:10:23.365Z info: [Optional] IoRedis not initialized for rate limiters.
+2025-04-26T22:10:24.292Z info: Connected to MongoDB
+2025-04-26T22:10:25.109Z info: Custom config file loaded:
+2025-04-26T22:10:25.110Z info: {
+  "version": "1.2.1",
+  "cache": true,
+  "interface": {
+    "customWelcome": "Welcome to LibreChat! Enjoy your experience.",
+    "privacyPolicy": {
+... [truncated]
+2025-04-26T22:10:25.133Z debug: Custom config:
+{
+  version: "1.2.1",
+  cache: true,
+    interface.customWelcome: "Welcome to LibreChat! Enjoy your experience.",
+    privacyPolicy.externalUrl: "https://librechat.ai/privacy-policy",
+    privacyPolicy.openNewTab: true,
+    termsOfService.externalUrl: "https://librechat.ai/tos",
+    termsOfService.openNewTab: true,
+    termsOfService.modalAcceptance: true,
+    termsOfService.modalTitle: "Terms of Service for LibreChat",
+    termsOfService.modalContent: "# Terms and Conditions for LibreChat\n\n*Effective Date: February 18, 2024*\n\nWelcome to LibreChat, the... [truncated]",
+    interface.endpointsMenu: true,
+    interface.modelSelect: true,
+    interface.parameters: true,
+    interface.sidePanel: true,
+    interface.presets: true,
+    interface.prompts: true,
+    interface.bookmarks: true,
+    interface.multiConvo: true,
+    interface.agents: true,
+    // 6 socialLogin(s)
+    registration.socialLogins: ["github","google","discord","openid","facebook","apple"],
+    // 3 allowedDomain(s)
+    actions.allowedDomains: ["swapi.dev","librechat.ai","google.com"],
+    // 4 custom(s)
+    endpoints.custom: [{"name":"groq","apiKey":"${GROQ_API_KEY}","baseURL":"https://api.groq.com/openai/v1/","models":{"def... [truncated],{"name":"Mistral","apiKey":"${MISTRAL_API_KEY}","baseURL":"https://api.mistral.ai/v1","models":{"def... [truncated],{"name":"OpenRouter","apiKey":"${OPENROUTER_KEY}","baseURL":"https://openrouter.ai/api/v1","models":... [truncated],{"name":"Portkey","apiKey":"dummy","baseURL":"https://api.portkey.ai/v1","headers":{"x-portkey-api-k... [truncated]],
+}
+2025-04-26T22:10:25.136Z warn: Default value for CREDS_KEY is being used.
+2025-04-26T22:10:25.137Z warn: Default value for CREDS_IV is being used.
+2025-04-26T22:10:25.138Z warn: Default value for JWT_REFRESH_SECRET is being used.
+2025-04-26T22:10:25.139Z info: Please replace any default secret values.
+2025-04-26T22:10:25.139Z info: ​
+
+    For your convenience, use this tool to generate your own secret values:
+    https://www.librechat.ai/toolkit/creds_generator
+
+    ​
+2025-04-26T22:10:25.142Z warn: RAG API is either not running or not reachable at undefined, you may experience errors with file uploads.
+2025-04-26T22:10:25.200Z info: No changes needed for 'USER' role permissions
+2025-04-26T22:10:25.227Z info: No changes needed for 'ADMIN' role permissions
+2025-04-26T22:10:25.228Z info: Outdated Config version: 1.2.1
+Latest version: 1.2.4
+
+      Check out the Config changelogs for the latest options and features added.
+
+      https://... [truncated]
+2025-04-26T22:10:25.252Z info: Configuring social logins...
+2025-04-26T22:10:25.259Z info: Server listening on all interfaces at port 3080. Use http://localhost:3080 to access it

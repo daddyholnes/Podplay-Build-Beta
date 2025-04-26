@@ -16,6 +16,8 @@ export default defineConfig({
     alias: {
       // Ensure this alias points correctly to your src directory
       '~': path.resolve(__dirname, './src'),
+      '__vite-optional-peer-dep:react-redux:@reduxjs/toolkit': path.resolve(__dirname, 'node_modules/react-redux'),
+      'react-redux': path.resolve(__dirname, 'node_modules/react-redux'),
     },
   },
   // ... other configurations like server, build, etc.
