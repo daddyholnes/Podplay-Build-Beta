@@ -5,14 +5,14 @@
 
 # Sensitive credential files
 camera-calibration-beta-6304d1bafd3c.json
-*.pem
+client_secret_742797357300-kahbgonteviccnkmpn10ok5vcmj0qb6b.apps.googleusercontent.com.json
 *.key
 # Add your firebase service account file if you use it
 # firebase-service-account.json
 
 # Other potentially sensitive files (if applicable)
 accesspoints.txt # Add this if it contains sensitive data
-
+access-pOINTS.txt
 # Node dependencies
 node_modules/
 npm-debug.log*
