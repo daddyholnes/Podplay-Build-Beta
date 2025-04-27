@@ -45,6 +45,11 @@ const initializeLiveClient = async ({ req, res, endpointOption, overrideModel })
       apiVersion: 'v1beta', // Required for Live API support
     });
 
+    // Validate that the model is a Live API compatible model
+    if (!modelName.includes('live')) {
+      logger.warn(`Model ${modelName} may not be compatible with Live API. Recommended models: gemini-2.0-flash-live-001, gemini-2.0-pro-live-001`);
+    }
+
     logger.debug(`[GoogleLiveClient] Initialized with model: ${modelName}`);
 
     return {

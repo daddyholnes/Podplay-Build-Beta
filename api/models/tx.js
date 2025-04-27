@@ -114,6 +114,8 @@ const tokenValues = Object.assign(
     'gemini-2.0-flash-lite': { prompt: 0.075, completion: 0.3 },
     'gemini-2.0-flash': { prompt: 0.1, completion: 0.4 },
     'gemini-2.0': { prompt: 0, completion: 0 }, // https://ai.google.dev/pricing
+    'gemini-2.0-flash-live-001': { prompt: 0.1, completion: 0.4 }, // Live API model
+    'gemini-2.0-pro-live-001': { prompt: 2.5, completion: 10 }, // Live API model
     'gemini-2.5-pro-preview-03-25': { prompt: 1.25, completion: 10 },
     'gemini-2.5': { prompt: 0, completion: 0 }, // Free for a period of time
     'gemini-1.5-flash-8b': { prompt: 0.075, completion: 0.3 },

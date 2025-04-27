@@ -66,16 +66,26 @@ const handleLiveCompletion = async ({ client, modelName, messages, modelOptions 
   try {
     logger.debug('[GoogleLiveAPI] Processing completion with model:', modelName);
     
-    // Create live connection config with text as the response modality
-    const liveConnectConfig = {
-      responseModalities: ["text"],
-    };
+    const model = genAI.getGenerativeModel({ model: modelName });
     
-    // Create a session
-    const session = await client.live.connect({
-      model: modelName,
-      config: liveConnectConfig,
-    });
+    // Create a chat session - special handling for 2.0 models
+    const isGemini2Model = modelName.includes('gemini-2.0');
+    
+    // Configure session options based on model
+    const sessionOptions = {
+      // Set model-specific parameters
+      generationConfig: {
+        temperature: modelOptions.temperature || 0.7,
+        topP: modelOptions.top_p || 0.95,
+        topK: modelOptions.top_k || 40,
+        maxOutputTokens: modelOptions.max_tokens || (isGemini2Model ? 8192 : 2048),
+        // Additional 2.0 specific settings
+        responseStreamingMode: isGemini2Model ? "full" : "token_by_token",
+      }
+    };
+
+    // Start a chat session
+    const session = model.startChat(sessionOptions);
     
     // Process and send all but the last message as context
     for (let i = 0; i < messages.length - 1; i++) {

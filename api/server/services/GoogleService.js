@@ -69,6 +69,10 @@ async function getModels() {
     
     // Define default models
     const defaultModels = [
+      { id: 'gemini-2.0-flash', name: 'Gemini 2.0 Flash' },
+      { id: 'gemini-2.0-flash-lite', name: 'Gemini 2.0 Flash Lite' },
+      { id: 'gemini-2.0-flash-live-001', name: 'Gemini 2.0 Flash Live' },
+      { id: 'gemini-2.0-pro-live-001', name: 'Gemini 2.0 Pro Live' },
       { id: 'gemini-1.5-pro', name: 'Gemini 1.5 Pro' },
       { id: 'gemini-1.5-flash', name: 'Gemini 1.5 Flash' },
       { id: 'gemini-1.5-pro-latest', name: 'Gemini 1.5 Pro (Latest)' },
